@@ -139,7 +139,7 @@ export function ExerciseCard({ topic, ex, index, total, combo, mode, onResult, o
         )}
         {state === "graded" && (
           <div className={"feedback " + (graded ? "good" : "info")}>
-            <b>{graded ? "Nice work." : "No problem. It will come back in your reviews."}</b>
+            <b>{graded ? "Nice work." : mode === "lesson" ? "No problem. You'll get another go before finishing this topic." : "No problem. It will come back in your reviews."}</b>
             <button className={"btn wide big " + (graded ? "good" : "")} onClick={() => { play("tap"); onNext(); }}>Continue</button>
             {!graded && <Tutor topic={topic} ex={ex} given={val} label="Explain this step by step" />}
           </div>

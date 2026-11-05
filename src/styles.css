@@ -75,7 +75,7 @@ a { color: var(--accent); }
 @keyframes pop { 0% { transform: scale(1); } 40% { transform: scale(1.3); } 100% { transform: scale(1); } }
 
 /* ---------- tab bar ---------- */
-.tabs { display: grid; grid-template-columns: repeat(5, 1fr); background: var(--deep); border-top: 1px solid var(--line);
+.tabs { display: grid; grid-template-columns: repeat(6, 1fr); background: var(--deep); border-top: 1px solid var(--line);
   padding-bottom: env(safe-area-inset-bottom, 0px); padding-left: env(safe-area-inset-left, 0px); padding-right: env(safe-area-inset-right, 0px); position: relative; z-index: 20; }
 .tabs button { background: none; border: 0; padding: 8px 2px 9px; display: grid; justify-items: center; gap: 2px; font-size: 11px; color: var(--dim); cursor: pointer; position: relative; }
 .tabs button img { width: 24px; height: 24px; object-fit: contain; opacity: .55; transition: transform .25s var(--spring), filter .2s; }
@@ -187,6 +187,14 @@ h1 { font-size: 26px; } h2 { font-size: 19px; } h3 { font-size: 15px; }
 .combo { position: absolute; top: 12px; right: 14px; font: 700 13px var(--mono); color: var(--amber); text-shadow: 0 0 10px var(--amber); }
 .combo.big { animation: pop .4s var(--spring); }
 .tutor { background: #0a1028; border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; white-space: pre-wrap; font-size: 15px; line-height: 1.55; overflow-wrap: anywhere; }
+.picker { font: 400 16px var(--body); width: 100%; }
+.asklink { background: none; border: 0; color: var(--accent); cursor: pointer; font-size: 14px; font-weight: 700; padding: 4px 2px; text-align: left; }
+.starter { text-align: left; width: 100%; font-weight: 400; }
+.chat { display: grid; gap: 10px; }
+.msg { max-width: 88%; padding: 10px 14px; border-radius: 14px; white-space: pre-wrap; overflow-wrap: anywhere; font-size: 16px; line-height: 1.5; }
+.msg.me { justify-self: end; background: color-mix(in srgb, var(--accent) 22%, var(--panel)); border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent); }
+.msg.bot { justify-self: start; background: #0a1028; border: 1px solid var(--line); }
+.chatform { position: sticky; bottom: -24px; padding: 10px 0 24px; background: var(--void); }
 .tutor.loading::after { content: "▍"; animation: blink 1s steps(2) infinite; color: var(--accent); }
 @keyframes blink { 50% { opacity: 0; } }
 .videobox { display: grid; gap: 12px; }

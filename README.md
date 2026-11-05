@@ -5,7 +5,7 @@ Built with React, TypeScript, Vite and PixiJS. Art, sounds and font are from Ken
 
 ## Play
 - **Hosted on claude.ai:** progress syncs to your Claude account and the "Explain" buttons ask Claude.
-- **On the web:** https://megalodooon.github.io/quantum-quest/ (every push to `main` deploys). The "Explain" tutor buttons only work on claude.ai.
+- **On the web:** https://megalodooon.github.io/quantum-quest/ (every push to `main` deploys). The Tutor tab and "Explain" buttons only work on claude.ai.
 - **On an iPhone:** open that link in Safari, tap *Share*, then *Add to Home Screen*. It opens full screen like an app.
   Progress is saved on that device only, and the home screen app keeps its own save, separate from Safari.
 

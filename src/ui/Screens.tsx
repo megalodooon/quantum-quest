@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { PARTS, STAGES, TOTAL_TOPICS, hex, stageColor, topicHash, LEVEL_NAMES } from "../content";
 import { ENEMIES, img } from "../assets";
 import { play } from "../audio";
-import { bossUnlocked, dueCards, mastery, nextTopic, partProgress, partUnlocked, topicUnlocked, useGame, actions } from "../game/store";
+import { bossUnlocked, dueCards, mastery, nextTopic, partProgress, partUnlocked, topicCleared, topicsToCheck, topicUnlocked, uncheckedCount, useGame, actions } from "../game/store";
 import { levelFromXp, questsForDay, titleFor } from "../game/rules";
 import { MapScene, PlanetInfo } from "../pixi/MapScene";
 import { Back, Mascot, Quanta, Ring, go } from "./common";
@@ -11,8 +11,9 @@ export function Today() {
   const s = useGame((s) => s);
   const next = nextTopic(s);
   const due = dueCards(s, 99).length;
+  const toCheck = topicsToCheck(s).length;
   const quests = questsForDay(s.day.d);
-  const done = Object.values(s.topics).filter((t) => t.s === 2).length;
+  const done =Object.values(s.topics).filter((t) => t.s === 2).length;
   const { level } = levelFromXp(s.xp);
   const fact = useMemo(() => {
     const ps = PARTS.slice(14);
@@ -37,6 +38,17 @@ export function Today() {
         <p className="dim" style={{ margin: 0 }}>{next.goal}</p>
         <button className="btn big wide" onClick={() => go(topicHash(next.id))}>{s.topics[next.id]?.s ? "Continue" : "Start"} {next.id}</button>
       </div>
+
+      {toCheck > 0 && (
+        <div className="panel row spread">
+          <div className="stack" style={{ gap: 4 }}>
+            <span className="eyebrow">Things to check</span>
+            <b>{toCheck} {toCheck === 1 ? "topic has" : "topics have"} unticked checks</b>
+            <span className="small dim">Go back and tick what you can do, or ask the tutor about the rest.</span>
+          </div>
+          <button className="btn" onClick={() => go("checks")}>Check</button>
+        </div>
+      )}
 
       <div className="tiles">
         <div className="tile"><b>{done}</b><span>of {TOTAL_TOPICS} topics</span></div>
@@ -156,7 +168,7 @@ export function PartView({ p }: { p: number }) {
   const col = hex(stageColor(part.stage));
   const stage = STAGES.find((x) => x.id === part.stage)!;
   const bossOk = bossUnlocked(s, p);
-  const nextId = part.topics.find((t) => s.topics[t.id]?.s !== 2 && topicUnlocked(s, t.id))?.id;
+  const nextId = part.topics.find((t) => !topicCleared(s, t.id) && topicUnlocked(s, t.id))?.id;
   return (
     <div className="stack">
       <Back to="map" label="Map" />
@@ -188,7 +200,7 @@ export function PartView({ p }: { p: number }) {
           return (
             <button key={t.id} className={cls} disabled={!open} onClick={() => go(topicHash(t.id))}>
               <span className="node"><Ring frac={frac} color={m >= 3 ? "var(--amber)" : col} /><span className="core">{t.id.split(".")[1]}</span></span>
-              <span className="t"><b>{t.title}</b><span>{st?.s === 2 ? ["", "Complete", "Strong", "Mastered"][Math.floor(m)] ?? "Complete" : st?.s === 1 ? "In progress" : t.goal}</span></span>
+              <span className="t"><b>{t.title}</b><span>{st?.s === 2 && uncheckedCount(s, t.id) ? `${uncheckedCount(s, t.id)} to tick before moving on` : st?.s === 2 ? ["", "Complete", "Strong", "Mastered"][Math.floor(m)] ?? "Complete" : st?.s === 1 ? "In progress" : t.goal}</span></span>
               <span className="lvltag">L{t.level}</span>
             </button>
           );

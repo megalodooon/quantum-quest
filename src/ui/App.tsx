@@ -10,10 +10,12 @@ import { Lesson } from "./Lesson";
 import { MapView, PartView, Today } from "./Screens";
 import { Boss, Review } from "./Battle";
 import { Badges, Onboarding, Profile, Shop } from "./Meta";
+import { ChecksScreen, TutorScreen } from "./Help";
 
 const TABS = [
   { id: "today", label: "Today", icon: "icon_home" },
   { id: "map", label: "Map", icon: "icon_target" },
+  { id: "tutor", label: "Tutor", icon: "icon_question" },
   { id: "badges", label: "Badges", icon: "icon_trophy" },
   { id: "shop", label: "Shop", icon: "icon_shoppingcart" },
   { id: "profile", label: "Profile", icon: "icon_singleplayer" },
@@ -52,18 +54,21 @@ export function App() {
   const tid = hashTopic(route);
   const part = route.match(/^part-(\d+)$/);
   const boss = route.match(/^boss-(\d+)$/);
+  const tutor = route.match(/^tutor(?:-(.+))?$/);
   const full = route === "map" || !!boss;
   let screen;
   if (tid) screen = <Lesson key={tid + nav} id={tid} />;
   else if (part) screen = <PartView p={+part[1]} />;
   else if (boss) screen = <Boss key={nav} p={+boss[1]} />;
   else if (route === "map") screen = <MapView />;
+  else if (tutor) screen = <TutorScreen key={route} topicId={tutor[1] ? hashTopic("lesson-" + tutor[1]) ?? tutor[1] : null} />;
+  else if (route === "checks") screen = <ChecksScreen />;
   else if (route === "review") screen = <Review key={nav} />;
   else if (route === "badges") screen = <Badges />;
   else if (route === "shop") screen = <Shop />;
   else if (route === "profile") screen = <Profile />;
   else screen = <Today />;
-  const activeTab = tid || part ? "map" : boss ? "map" : route === "review" ? "today" : route;
+  const activeTab = tid || part ? "map" : boss ? "map" : tutor ? "tutor" : route === "review" || route === "checks" ? "today" : route;
   const flame = s.streak.last === s.day.d ? (s.streak.count >= 30 ? "violet" : s.streak.count >= 7 ? "blue" : "") : "cold";
   const quests = questsForDay(s.day.d);
   const claimable = quests.filter((q) => ((s.day as any)[q.stat] ?? 0) >= q.target && !s.day.claimed.includes(q.id)).length;

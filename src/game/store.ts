@@ -2,7 +2,7 @@ import { useSyncExternalStore } from "react";
 import { PARTS, TOPIC_INDEX } from "../content";
 import { ACHIEVEMENTS, ALL_ITEMS, AVATARS, BOX_DAYS, BOX_ODDS, DAY, QUANTA, SHIPS, THEME_ITEMS, XP, levelFromXp, questsForDay, today, dayDiff } from "./rules";
 
-export type TopicState = { s: number; w?: 1; d?: number[]; c?: number[]; t?: number }; // s: 0 new, 1 in progress, 2 complete
+export type TopicState = { s: number; w?: 1; d?: number[]; k?: number[]; c?: number[]; t?: number }; // s: 0 new, 1 in progress, 2 complete; d: exercises answered; k: exercises understood (answered right)
 export type Card = [box: number, due: number];
 export type Journal = { k: string; t: number; g: string };
 
@@ -190,6 +190,7 @@ export const actions = {
       const t = (d.topics[id] ||= { s: 1 });
       if (!opts.review) {
         t.d = Array.from(new Set([...(t.d || []), n]));
+        if (opts.ok) t.k = Array.from(new Set([...(t.k || []), n]));
         if (t.s === 0) t.s = 1;
       }
       d.stats.answered++; d.day.answered++;
@@ -330,7 +331,21 @@ export function topicUnlocked(s: Save, id: string) {
   if (!partUnlocked(s, ti.part.part)) return false;
   if (s.settings.freeRoam || ti.index === 0) return true;
   const prev = ti.part.topics[ti.index - 1];
-  return s.topics[prev.id]?.s === 2 || (s.topics[id]?.s ?? 0) > 0;
+  return topicCleared(s, prev.id) || (s.topics[id]?.s ?? 0) > 0;
+}
+/** Self-checks of a topic that aren't ticked yet. */
+export function uncheckedCount(s: Save, id: string) {
+  return Math.max(0, TOPIC_INDEX[id].topic.checks.length - (s.topics[id]?.c?.length ?? 0));
+}
+/** Finished and every self-check ticked: the only state that lets you move on. */
+export function topicCleared(s: Save, id: string) {
+  return s.topics[id]?.s === 2 && uncheckedCount(s, id) === 0;
+}
+/** Started topics that still have unticked self-checks, in course order. */
+export function topicsToCheck(s: Save) {
+  return Object.keys(s.topics)
+    .filter((id) => TOPIC_INDEX[id] && s.topics[id].s > 0 && uncheckedCount(s, id) > 0)
+    .sort((a, b) => TOPIC_INDEX[a].part.part - TOPIC_INDEX[b].part.part || TOPIC_INDEX[a].index - TOPIC_INDEX[b].index);
 }
 export function bossUnlocked(s: Save, p: number) {
   const pr = partProgress(s, p);
@@ -339,7 +354,7 @@ export function bossUnlocked(s: Save, p: number) {
 export function nextTopic(s: Save) {
   for (const p of PARTS) {
     if (!partUnlocked(s, p.part)) break;
-    for (const t of p.topics) if (s.topics[t.id]?.s !== 2 && topicUnlocked(s, t.id)) return t;
+    for (const t of p.topics) if (!topicCleared(s, t.id) && topicUnlocked(s, t.id)) return t;
   }
   return PARTS[0].topics[0];
 }
