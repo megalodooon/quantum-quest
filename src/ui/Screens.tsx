@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { PARTS, STAGES, TOTAL_TOPICS, hex, stageColor, topicHash, LEVEL_NAMES } from "../content";
 import { ENEMIES, img } from "../assets";
 import { play } from "../audio";
+import { inClaude, useCloudStatus } from "../cloud";
 import { bossUnlocked, dueCards, mastery, nextTopic, partProgress, partUnlocked, topicCleared, topicsToCheck, topicUnlocked, uncheckedCount, useGame, actions } from "../game/store";
 import { levelFromXp, questsForDay, titleFor } from "../game/rules";
 import { MapScene, PlanetInfo } from "../pixi/MapScene";
@@ -9,6 +10,7 @@ import { Back, Mascot, Quanta, Ring, go } from "./common";
 
 export function Today() {
   const s = useGame((s) => s);
+  const cloud = useCloudStatus();
   const next = nextTopic(s);
   const due = dueCards(s, 99).length;
   const toCheck = topicsToCheck(s).length;
@@ -23,6 +25,9 @@ export function Today() {
   const greet = new Date().getHours() < 12 ? "Good morning" : new Date().getHours() < 18 ? "Good afternoon" : "Good evening";
   return (
     <div className="stack">
+      {inClaude && (cloud === "local" || cloud === "offline") && (
+        <div className="small dim">Your Claude account can't be reached right now, so progress is only being saved in this browser.</div>
+      )}
       <div className="panel glow hero corner">
         <div className="stack" style={{ gap: 8 }}>
           <div className="eyebrow">{greet}, {s.name}</div>

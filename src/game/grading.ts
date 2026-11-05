@@ -10,13 +10,13 @@ export function parseInput(raw: string): Parsed {
   let s = raw.trim().replace(/[−–—]/g, "-").replace(/ |\s+/g, " ");
   s = s.replace(/[⁰¹²³⁴⁵⁶⁷⁸⁹⁻⁺]+/g, (m) => "^" + m.split("").map((c) => SUP[c]).join(""));
   s = s.replace(/^(about|approx\.?|approximately|roughly|~|≈)\s*/i, "");
+  // "x = 7" and "(−1)(−1) = 1" give their final value; "- 8" and "(−8)" are just −8.
+  s = (s.split("=").pop() as string).trim().replace(/^\(([^()]*)\)$/, "$1").replace(/^([-+])\s+/, "$1");
   const m = s.match(/^([-+]?(?:\d{1,3}(?:,\d{3})+|\d*)(?:\.\d+)?)\s*(?:(?:[eE]\s*([-+]?\d+))|(?:\s*[x×*·]\s*10\s*\^?\s*\(?\s*([-+]?\d+)\s*\)?))?\s*(?:\/\s*(\d+(?:\.\d+)?))?\s*(.*)$/);
-  if (!m || m[1] === "" || m[1] === "-" || m[1] === "+") {
-    // allow a bare power of ten like 10^-3
-    const p = s.match(/^10\s*\^\s*\(?\s*([-+]?\d+)\s*\)?\s*(.*)$/);
-    if (p) return { value: Math.pow(10, +p[1]), unit: p[2].trim() };
-    return null;
-  }
+  // a bare power of ten like 10^-3
+  const p = s.match(/^10\s*\^\s*\(?\s*([-+]?\d+)\s*\)?\s*(.*)$/);
+  if (p) return { value: Math.pow(10, +p[1]), unit: p[2].trim() };
+  if (!m || m[1] === "" || m[1] === "-" || m[1] === "+") return null;
   let v = parseFloat(m[1].replace(/,/g, ""));
   if (Number.isNaN(v)) return null;
   const exp = m[2] ?? m[3];
@@ -37,11 +37,11 @@ function unitScale(from: string, to: string): number | null {
   return null;
 }
 
-export type Verdict = { ok: boolean; close: boolean; reason?: string };
+export type Verdict = { ok: boolean; close: boolean; reason?: string; notNumber?: boolean };
 
 export function gradeNumeric(raw: string, num: Num): Verdict {
   const p = parseInput(raw);
-  if (!p) return { ok: false, close: false, reason: "That doesn't look like a number. Try something like 2.4e-12 or 3/4." };
+  if (!p) return { ok: false, close: false, notNumber: true, reason: "That doesn't look like a number. Try something like 2.4e-12 or 3/4." };
   let v = p.value;
   const scale = p.unit ? unitScale(p.unit, num.unit) : 1;
   if (scale !== null) v *= scale;

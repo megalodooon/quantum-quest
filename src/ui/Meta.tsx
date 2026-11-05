@@ -4,7 +4,7 @@ import { img } from "../assets";
 import { buzz, play } from "../audio";
 import { actions, useGame } from "../game/store";
 import { ACHIEVEMENTS, AVATARS, BOX_ODDS, CONSUMABLES, SHIPS, THEME_ITEMS, levelFromXp, rankIcon, titleFor, ShopItem } from "../game/rules";
-import { exportBackup, importBackup, cloudStatus } from "../cloud";
+import { exportBackup, importBackup, useCloudStatus } from "../cloud";
 import { Quanta, Switch, go } from "./common";
 import { burstConfetti } from "./FX";
 
@@ -123,6 +123,7 @@ function BoxOpener() {
 // ---------------- PROFILE ----------------
 export function Profile() {
   const s = useGame((s) => s);
+  const cloud = useCloudStatus();
   const { level, into, need } = levelFromXp(s.xp);
   const [note, setNote] = useState<string | null>(null);
   const [confirmReset, setConfirmReset] = useState(false);
@@ -174,7 +175,7 @@ export function Profile() {
         <div className="setting"><span>Vibration (Android)</span><Switch label="Vibration" on={s.settings.haptics} onChange={(v) => actions.setting("haptics", v)} /></div>
         <div className="setting"><span>Calm mode <span className="small dim">(less motion and particles)</span></span><Switch label="Calm mode" on={s.settings.calm} onChange={(v) => actions.setting("calm", v)} /></div>
         <div className="setting"><span>Free roam <span className="small dim">(unlock every part and topic)</span></span><Switch label="Free roam" on={s.settings.freeRoam} onChange={(v) => actions.setting("freeRoam", v)} /></div>
-        <div className="setting"><span>Progress <span className="small dim">({cloudStatus === "synced" || cloudStatus === "saving" ? "saved to your Claude account" : "saved in this browser"})</span></span>
+        <div className="setting"><span>Progress <span className="small dim">({cloud === "synced" || cloud === "saving" ? "saved to your Claude account" : cloud === "offline" ? "saved in this browser for now; it will sync to your Claude account" : cloud === "connecting" ? "connecting to your Claude account" : "saved in this browser"})</span></span>
           <div className="row"><button className="btn ghost" onClick={async () => setNote(await exportBackup())}>Back up</button><button className="btn ghost" onClick={() => file.current?.click()}>Restore</button></div></div>
         <input ref={file} id="restore" type="file" accept="application/json,.json" hidden onChange={(e) => { const f = e.target.files?.[0]; if (!f) return; const r = new FileReader(); r.onload = () => setNote(importBackup(String(r.result))); r.readAsText(f); }} />
         <div className="setting"><span>Start over</span>

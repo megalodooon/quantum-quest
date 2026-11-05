@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { hashTopic } from "../content";
+import { retrySync, useCloudStatus } from "../cloud";
 import { img } from "../assets";
 import { setHaptics, setSound, unlockAudio, play } from "../audio";
 import { dueCards, onFX, useGame } from "../game/store";
@@ -25,6 +26,8 @@ export function App() {
   const hash = useHash();
   const [nav, setNav] = useState(0);
   const s = useGame((s) => s);
+  const cloud = useCloudStatus();
+  const [startAnyway, setStartAnyway] = useState(false);
   const { level, into, need } = levelFromXp(s.xp);
   const [mood, setMood] = useState<"idle" | "cheer" | "hurt">("idle");
   useEffect(() => {
@@ -48,6 +51,16 @@ export function App() {
     document.documentElement.classList.toggle("calm", s.settings.calm);
   }, [s.eq.theme, s.settings.calm]);
 
+  // A new browser has no local save yet: look in the Claude account before offering a fresh start.
+  if (!s.onboarded && cloud === "connecting") return <div className="app"><main className="main"><div className="empty">Loading your progress…</div></main></div>;
+  if (!s.onboarded && cloud === "offline" && !startAnyway) return (
+    <div className="app"><main className="main"><div className="empty panel">
+      <h2>Couldn't load your progress</h2>
+      <p>Your Claude account can't be reached right now. Your progress isn't lost.</p>
+      <button className="btn wide" onClick={retrySync}>Try again</button>
+      <button className="btn ghost wide" onClick={() => setStartAnyway(true)}>Play anyway for now</button>
+    </div></main></div>
+  );
   if (!s.onboarded) return <div className="app"><main className="main"><Onboarding /></main><FXLayer /></div>;
 
   const route = hash || "today";

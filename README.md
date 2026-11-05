@@ -4,8 +4,8 @@ A game-style course that goes from counting to quantum gravity: 25 parts, 929 to
 Built with React, TypeScript, Vite and PixiJS. Art, sounds and font are from Kenney (kenney.nl), CC0.
 
 ## Play
-- **Hosted on claude.ai:** progress syncs to your Claude account and the "Explain" buttons ask Claude.
-- **On the web:** https://megalodooon.github.io/quantum-quest/ (every push to `main` deploys). The Tutor tab and "Explain" buttons only work on claude.ai.
+- **Hosted on claude.ai:** progress syncs to your Claude account, the "Explain" buttons ask Claude, and Claude checks any answer the automatic marking rejects.
+- **On the web:** https://megalodooon.github.io/quantum-quest/ (every push to `main` deploys). The Tutor tab, "Explain" buttons and Claude's answer checks only work on claude.ai. Written answers there are compared with the answer key by you.
 - **On an iPhone:** open that link in Safari, tap *Share*, then *Add to Home Screen*. It opens full screen like an app.
   Progress is saved on that device only, and the home screen app keeps its own save, separate from Safari.
 
