@@ -14,7 +14,10 @@ const homeScreenTags = {
       ["meta", { name: "apple-mobile-web-app-title", content: "Quantum Quest" }],
       ["meta", { name: "apple-mobile-web-app-status-bar-style", content: "black-translucent" }],
       ["meta", { name: "theme-color", content: "#0c1330" }],
-    ].map(([tag, attrs]) => ({ tag: tag as string, attrs: attrs as Record<string, string>, injectTo: "head" as const })),
+    ]
+      .map(([tag, attrs]) => ({ tag: tag as string, attrs: attrs as Record<string, string>, injectTo: "head" as const }))
+      // Clear the notch here; on claude.ai the artifact host already pads the page for it.
+      .concat({ tag: "style", attrs: {}, children: ".app { padding-top: env(safe-area-inset-top, 0px); }", injectTo: "head" } as any),
 };
 
 // "pages" mode builds a normal multi-file site for GitHub Pages; the default
