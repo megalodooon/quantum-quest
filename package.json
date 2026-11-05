@@ -1,0 +1,29 @@
+{
+  "name": "quantum-quest",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "content": "python3 scripts/build_content.py",
+    "assets": "python3 scripts/build_assets.py",
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build && node scripts/artifactify.mjs",
+    "build:pages": "tsc --noEmit && vite build --mode pages"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.3",
+    "motion": "^11.15.0",
+    "pixi.js": "^8.6.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/canvas-confetti": "^1.6.4",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "vite-plugin-singlefile": "^2.0.3"
+  }
+}

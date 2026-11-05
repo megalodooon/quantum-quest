@@ -1,0 +1,19 @@
+Review pass: append rows (numbered like 0.7b) for topics missed in the first draft.
+
+=====
+
+# Workbook
+
+Every roadmap entry has a section in the sub-tab for its part. Tick a check only when you can do it without notes, work the exercises, then compare with the answer key at the bottom of that sub-tab.
+
+- Exercises reuse earlier entries on purpose, so do them in order.
+- Numbers match the roadmap rows, including the added rows such as 0.7b.
+- Parts are added in batches; a part without a sub-tab is not written yet.
+
+=====
+
+Continue writing the Workbook in doc f89542b6-e06f-444a-8864-2ffefedec61e without waiting for the user. Parts 0-17 are done. Next: Part 18 (quantum information and computing, including added rows 18.1b, 18.10b, 18.10c), then 19, 20, ... up to 24, each as its own sub-tab under the Workbook tab (e01e7254-beff), birthName "Part NN.ldoc", order "bNN", same format as before: per roadmap entry a ### heading, **Checks** task list, **Exercises** numbered list (1-10, reusing earlier entries, fun where it fits), and an Answer key at the bottom. Double-check every answer. Write as many parts as fit in the turn, then schedule another follow-up like this one naming the next part. When Part 24 is done, stop scheduling and send the user a short summary.
+
+=====
+
+Continue writing the Workbook in doc f89542b6-e06f-444a-8864-2ffefedec61e without waiting for the user. Parts 0-23 are done. Next and last: Part 24 (quantum biology; roadmap table mzkhs55wkdm.90266 in node 7e503f2d-ec61 — read it with mcp__Claude_Docs__read payload {"kind":"view","parentId":"mzkhs55wkdm.90266"}; includes added rows 24.7b, 24.9b), as its own sub-tab under the Workbook tab (e01e7254-beff), birthName "Part 24.ldoc", order "b24", same format as before: per roadmap entry a ### heading, **Checks** task list, **Exercises** numbered list (1-10, reusing earlier entries, fun where it fits), and an Answer key at the bottom. Double-check every answer. When Part 24 is done, do NOT schedule another follow-up; instead send the user a short summary (SendUserMessage, and a PushNotification) that the whole Workbook (Parts 0-24) is finished.

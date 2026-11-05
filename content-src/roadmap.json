@@ -1,0 +1,5576 @@
+{
+"0.1": {
+"id": "0.1",
+"level": "L0",
+"search": "map of mathematics Domain of Science",
+"goal": "How the branches of math connect, so you know where each later part fits."
+},
+"0.2": {
+"id": "0.2",
+"level": "L0",
+"search": "map of physics Domain of Science",
+"goal": "The big regions of physics and where quantum mechanics sits among them."
+},
+"0.3": {
+"id": "0.3",
+"level": "L0",
+"search": "map of chemistry Domain of Science",
+"goal": "How chemistry grows out of physics and leads into biology."
+},
+"0.4": {
+"id": "0.4",
+"level": "L0",
+"search": "map of quantum physics Domain of Science",
+"goal": "A first overview of every quantum topic in this roadmap."
+},
+"0.5": {
+"id": "0.5",
+"level": "L0",
+"search": "what is the scientific method",
+"goal": "Hypothesis, experiment, falsification; why physics trusts experiments over intuition."
+},
+"0.6": {
+"id": "0.6",
+"level": "L0",
+"search": "natural numbers integers rational irrational real numbers",
+"goal": "Name each number set, give an example, and know each sits inside the next."
+},
+"0.7": {
+"id": "0.7",
+"level": "L0",
+"search": "addition subtraction multiplication division explained visually",
+"goal": "Do all four by hand and see multiplication as repeated addition and as area."
+},
+"0.8": {
+"id": "0.8",
+"level": "L0",
+"search": "order of operations PEMDAS",
+"goal": "Evaluate 3 + 4 × 2² correctly (19) and explain why the order is fixed."
+},
+"0.9": {
+"id": "0.9",
+"level": "L0",
+"search": "negative numbers number line explained",
+"goal": "Add, subtract and multiply negatives; why negative × negative is positive."
+},
+"0.10": {
+"id": "0.10",
+"level": "L0",
+"search": "absolute value explained",
+"goal": "Treat \\|x\\| as distance from zero; solve \\|x − 3\\| = 2."
+},
+"0.11": {
+"id": "0.11",
+"level": "L0",
+"search": "fractions explained visually",
+"goal": "Add, multiply and divide fractions; find a common denominator."
+},
+"0.12": {
+"id": "0.12",
+"level": "L0",
+"search": "decimals and percentages explained",
+"goal": "Convert freely between fractions, decimals and percentages."
+},
+"0.13": {
+"id": "0.13",
+"level": "L0",
+"search": "prime factorization greatest common divisor least common multiple",
+"goal": "Factor any number into primes; use this to simplify fractions."
+},
+"0.14": {
+"id": "0.14",
+"level": "L0",
+"search": "ratios and proportions",
+"goal": "Solve a proportion; tell direct from inverse proportion (crucial for reading physics formulas)."
+},
+"0.15": {
+"id": "0.15",
+"level": "L0",
+"search": "exponents and powers rules explained",
+"goal": "Use aᵐ·aⁿ = aᵐ⁺ⁿ, (aᵐ)ⁿ = aᵐⁿ, a⁰ = 1 and a⁻ⁿ = 1/aⁿ without hesitation."
+},
+"0.16": {
+"id": "0.16",
+"level": "L0",
+"search": "square roots and nth roots fractional exponents",
+"goal": "Read √a as a^(1/2); simplify roots."
+},
+"0.17": {
+"id": "0.17",
+"level": "L0",
+"search": "scientific notation explained",
+"goal": "Write and multiply numbers like 6.02 × 10²³ and 1.6 × 10⁻¹⁹."
+},
+"0.18": {
+"id": "0.18",
+"level": "L0",
+"search": "orders of magnitude and estimation Fermi problems",
+"goal": "Estimate any quantity to the nearest power of ten."
+},
+"0.19": {
+"id": "0.19",
+"level": "L0",
+"search": "Powers of Ten 1977 Eames film",
+"goal": "Feel the scale from 10⁻¹⁶ m (inside a proton) to 10²⁴ m (galaxy clusters)."
+},
+"0.20": {
+"id": "0.20",
+"level": "L0",
+"search": "scale of the universe from quarks to cosmos",
+"goal": "Place an atom (10⁻¹⁰ m), a nucleus (10⁻¹⁵ m) and a cell (10⁻⁵ m) on that scale."
+},
+"0.21": {
+"id": "0.21",
+"level": "L0",
+"search": "SI base units and metric prefixes",
+"goal": "Know the 7 base units (m, kg, s, A, K, mol, cd) and the prefixes from femto to tera."
+},
+"0.22": {
+"id": "0.22",
+"level": "L0",
+"search": "unit conversion dimensional analysis",
+"goal": "Convert units by multiplying by 1; check a formula by its units alone."
+},
+"0.23": {
+"id": "0.23",
+"level": "L0",
+"search": "significant figures and measurement uncertainty",
+"goal": "Report a measurement with sensible precision and an error bar."
+},
+"0.24": {
+"id": "0.24",
+"level": "L0",
+"search": "reading graphs and axes",
+"goal": "Read slope, intercept and area off any graph, including log axes."
+},
+"0.25": {
+"id": "0.25",
+"level": "L0",
+"search": "Greek alphabet in math and physics",
+"goal": "Recognize and name ψ, φ, λ, ω, ħ, Δ, Σ, ∂, ∇ and the rest on sight."
+},
+"0.26": {
+"id": "0.26",
+"level": "L0",
+"search": "how to read mathematical notation symbols",
+"goal": "Read ∑, ∏, ≈, ∝, ∈, ∀, ⇒, subscripts and superscripts aloud."
+},
+"1.1": {
+"id": "1.1",
+"level": "L0",
+"search": "what is a variable introduction to algebra",
+"goal": "Treat letters as unknown or changing numbers."
+},
+"1.2": {
+"id": "1.2",
+"level": "L0",
+"search": "solving linear equations",
+"goal": "Isolate x by doing the same thing to both sides."
+},
+"1.3": {
+"id": "1.3",
+"level": "L0",
+"search": "rearranging formulas physics",
+"goal": "Solve v = u + at for t and E = mc² for m."
+},
+"1.4": {
+"id": "1.4",
+"level": "L0",
+"search": "inequalities explained",
+"goal": "Solve inequalities; flip the sign when multiplying by a negative."
+},
+"1.5": {
+"id": "1.5",
+"level": "L0",
+"search": "graphing lines slope intercept form",
+"goal": "Read slope as a rate of change in y = mx + b."
+},
+"1.6": {
+"id": "1.6",
+"level": "L0",
+"search": "systems of linear equations substitution elimination",
+"goal": "Solve 2 equations in 2 unknowns (this becomes matrices later)."
+},
+"1.7": {
+"id": "1.7",
+"level": "L0",
+"search": "expanding brackets and factoring polynomials",
+"goal": "Expand (a + b)² and factor x² − 5x + 6."
+},
+"1.8": {
+"id": "1.8",
+"level": "L0",
+"search": "completing the square and quadratic formula derivation",
+"goal": "Derive and use the quadratic formula; read the discriminant."
+},
+"1.9": {
+"id": "1.9",
+"level": "L0",
+"search": "what is a function domain range",
+"goal": "Use f(x) notation, domain, range, composition and inverses."
+},
+"1.10": {
+"id": "1.10",
+"level": "L0",
+"search": "graph transformations shifting stretching functions",
+"goal": "Predict the graph of a·f(b(x − c)) + d."
+},
+"1.11": {
+"id": "1.11",
+"level": "L0",
+"search": "polynomial functions and their graphs",
+"goal": "Sketch a polynomial from its roots and leading term."
+},
+"1.12": {
+"id": "1.12",
+"level": "L0",
+"search": "rational functions and asymptotes",
+"goal": "Recognize 1/x and 1/r² behaviour (as in gravity and Coulomb's law)."
+},
+"1.13": {
+"id": "1.13",
+"level": "L0",
+"search": "exponential growth and decay",
+"goal": "Model half-life and doubling with a·bᵗ."
+},
+"1.14": {
+"id": "1.14",
+"level": "L0",
+"search": "logarithms explained",
+"goal": "Use log rules; read log scales such as decibels and pH."
+},
+"1.15": {
+"id": "1.15",
+"level": "L0",
+"search": "what is e Euler's number compound interest",
+"goal": "Know where e ≈ 2.718 comes from and why eˣ is special."
+},
+"1.16": {
+"id": "1.16",
+"level": "L0",
+"search": "angles triangles and circles geometry basics",
+"goal": "Angle sums, area, circumference 2πr and what π is."
+},
+"1.17": {
+"id": "1.17",
+"level": "L0",
+"search": "Pythagorean theorem visual proof",
+"goal": "Use a² + b² = c² to find distances between points."
+},
+"1.18": {
+"id": "1.18",
+"level": "L0",
+"search": "similar triangles and congruence",
+"goal": "Use scale factors between similar shapes."
+},
+"1.19": {
+"id": "1.19",
+"level": "L0",
+"search": "area and volume of sphere cylinder cone",
+"goal": "Use 4πr² and (4/3)πr³; know area scales as L² and volume as L³."
+},
+"1.20": {
+"id": "1.20",
+"level": "L0",
+"search": "radians explained",
+"goal": "Convert degrees to radians; why 2π rad = 360° is the natural unit."
+},
+"1.21": {
+"id": "1.21",
+"level": "L0",
+"search": "SOH CAH TOA sine cosine tangent",
+"goal": "Find sides and angles of right triangles."
+},
+"1.22": {
+"id": "1.22",
+"level": "L0",
+"search": "unit circle trigonometry",
+"goal": "See sin θ and cos θ as coordinates of a point moving around a circle."
+},
+"1.23": {
+"id": "1.23",
+"level": "L1",
+"search": "graphs of sine and cosine amplitude period phase",
+"goal": "Read A sin(ωt + φ): amplitude, angular frequency, phase. This is every wave."
+},
+"1.24": {
+"id": "1.24",
+"level": "L1",
+"search": "trigonometric identities angle addition formulas",
+"goal": "Use sin² + cos² = 1 and the sum formulas."
+},
+"1.25": {
+"id": "1.25",
+"level": "L1",
+"search": "inverse trig functions",
+"goal": "Use arcsin, arccos, arctan and their ranges."
+},
+"1.26": {
+"id": "1.26",
+"level": "L1",
+"search": "polar coordinates",
+"goal": "Convert between (x, y) and (r, θ)."
+},
+"1.27": {
+"id": "1.27",
+"level": "L1",
+"search": "3D coordinates and distance formula",
+"goal": "Locate points in 3D and find distances."
+},
+"1.28": {
+"id": "1.28",
+"level": "L1",
+"search": "vectors introduction magnitude direction components",
+"goal": "Add vectors tip to tail and split them into components."
+},
+"1.29": {
+"id": "1.29",
+"level": "L1",
+"search": "conic sections ellipse parabola hyperbola",
+"goal": "Recognize the shapes of orbits and trajectories."
+},
+"1.30": {
+"id": "1.30",
+"level": "L1",
+"search": "arithmetic and geometric sequences and series",
+"goal": "Sum a geometric series: 1 + r + r² + … = 1/(1 − r). Used for blackbody radiation."
+},
+"1.31": {
+"id": "1.31",
+"level": "L1",
+"search": "sigma notation summation",
+"goal": "Read and manipulate ∑ expressions."
+},
+"1.32": {
+"id": "1.32",
+"level": "L1",
+"search": "factorials permutations combinations",
+"goal": "Count arrangements with n! and n choose k (needed for entropy)."
+},
+"1.33": {
+"id": "1.33",
+"level": "L1",
+"search": "binomial theorem Pascal's triangle",
+"goal": "Expand (a + b)ⁿ."
+},
+"1.34": {
+"id": "1.34",
+"level": "L1",
+"search": "proof by induction",
+"goal": "Prove a statement for all n."
+},
+"1.35": {
+"id": "1.35",
+"level": "L1",
+"search": "set theory basics notation",
+"goal": "Use ∈, ⊂, ∪, ∩ and set-builder notation."
+},
+"1.36": {
+"id": "1.36",
+"level": "L1",
+"search": "logic and proofs introduction contradiction contrapositive",
+"goal": "Follow and write simple proofs."
+},
+"1.37": {
+"id": "1.37",
+"level": "L1",
+"search": "Welch Labs imaginary numbers are real",
+"goal": "Why i = √−1 was invented and why it is not \"fake\"."
+},
+"1.38": {
+"id": "1.38",
+"level": "L1",
+"search": "complex numbers complex plane",
+"goal": "Add and multiply a + bi; find modulus and conjugate."
+},
+"1.39": {
+"id": "1.39",
+"level": "L1",
+"search": "complex number multiplication as rotation",
+"goal": "See multiplying by a complex number as rotate-and-scale."
+},
+"1.40": {
+"id": "1.40",
+"level": "L1",
+"search": "complex numbers polar form",
+"goal": "Write z = r·e^(iθ) and convert to and from a + bi."
+},
+"1.41": {
+"id": "1.41",
+"level": "L1",
+"search": "e to the pi i in 3.14 minutes 3Blue1Brown",
+"goal": "Understand e^(iθ) = cos θ + i sin θ as motion around a circle."
+},
+"1.42": {
+"id": "1.42",
+"level": "L1",
+"search": "roots of unity and De Moivre's theorem",
+"goal": "Find the n complex nth roots of 1."
+},
+"1.43": {
+"id": "1.43",
+"level": "L1",
+"search": "why quantum mechanics needs complex numbers",
+"goal": "Preview why amplitudes are complex and how phases interfere."
+},
+"2.1": {
+"id": "2.1",
+"level": "L1",
+"search": "essence of calculus 3Blue1Brown ([verified link](https://www.youtube.com/watch?v=WUvTyaaNkzM))",
+"goal": "The whole series: derivatives and integrals as two sides of one idea."
+},
+"2.2": {
+"id": "2.2",
+"level": "L1",
+"search": "limits explained intuitively",
+"goal": "What it means for f(x) to approach a value."
+},
+"2.3": {
+"id": "2.3",
+"level": "L1",
+"search": "epsilon delta definition of a limit",
+"goal": "The precise definition (needed later for convergence)."
+},
+"2.4": {
+"id": "2.4",
+"level": "L1",
+"search": "continuity explained",
+"goal": "When a function has no jumps or holes."
+},
+"2.5": {
+"id": "2.5",
+"level": "L1",
+"search": "derivative from first principles",
+"goal": "Derive the slope of x² as a limit."
+},
+"2.6": {
+"id": "2.6",
+"level": "L1",
+"search": "power rule product rule quotient rule",
+"goal": "Differentiate any polynomial and product."
+},
+"2.7": {
+"id": "2.7",
+"level": "L1",
+"search": "chain rule visual explanation",
+"goal": "Differentiate compositions like sin(x²)."
+},
+"2.8": {
+"id": "2.8",
+"level": "L1",
+"search": "derivatives of sin cos e^x ln x",
+"goal": "Know these four by heart and why d/dx eˣ = eˣ."
+},
+"2.9": {
+"id": "2.9",
+"level": "L1",
+"search": "implicit differentiation",
+"goal": "Differentiate relations like x² + y² = 1."
+},
+"2.10": {
+"id": "2.10",
+"level": "L1",
+"search": "related rates",
+"goal": "Link changing quantities through their derivatives."
+},
+"2.11": {
+"id": "2.11",
+"level": "L1",
+"search": "position velocity acceleration calculus",
+"goal": "v = dx/dt and a = dv/dt; move between them."
+},
+"2.12": {
+"id": "2.12",
+"level": "L1",
+"search": "maxima minima optimization calculus",
+"goal": "Set the derivative to zero; use the second derivative test."
+},
+"2.13": {
+"id": "2.13",
+"level": "L1",
+"search": "linear approximation and differentials",
+"goal": "Use f(x + dx) ≈ f(x) + f′(x)dx."
+},
+"2.14": {
+"id": "2.14",
+"level": "L1",
+"search": "L'Hopital's rule",
+"goal": "Evaluate 0/0 and ∞/∞ limits."
+},
+"2.15": {
+"id": "2.15",
+"level": "L1",
+"search": "integral as area Riemann sums",
+"goal": "See the integral as a limit of sums."
+},
+"2.16": {
+"id": "2.16",
+"level": "L1",
+"search": "fundamental theorem of calculus visual",
+"goal": "Why integration undoes differentiation."
+},
+"2.17": {
+"id": "2.17",
+"level": "L1",
+"search": "antiderivatives and indefinite integrals",
+"goal": "Integrate basic functions and add the constant C."
+},
+"2.18": {
+"id": "2.18",
+"level": "L1",
+"search": "integration by substitution",
+"goal": "Use u-substitution."
+},
+"2.19": {
+"id": "2.19",
+"level": "L2",
+"search": "integration by parts",
+"goal": "Use ∫u dv = uv − ∫v du (used constantly in quantum proofs)."
+},
+"2.20": {
+"id": "2.20",
+"level": "L2",
+"search": "partial fractions integration",
+"goal": "Split rational functions to integrate them."
+},
+"2.21": {
+"id": "2.21",
+"level": "L2",
+"search": "trigonometric substitution integrals",
+"goal": "Handle √(a² − x²) type integrals."
+},
+"2.22": {
+"id": "2.22",
+"level": "L2",
+"search": "improper integrals convergence",
+"goal": "Integrate to infinity; this is how wavefunctions get normalized."
+},
+"2.23": {
+"id": "2.23",
+"level": "L2",
+"search": "Gaussian integral proof 3Blue1Brown",
+"goal": "Show ∫e^(−x²)dx = √π. It appears everywhere in quantum mechanics."
+},
+"2.24": {
+"id": "2.24",
+"level": "L2",
+"search": "even and odd functions integrals symmetry",
+"goal": "Odd functions integrate to zero over symmetric limits (parity)."
+},
+"2.25": {
+"id": "2.25",
+"level": "L2",
+"search": "average value of a function",
+"goal": "Weighted averages, the seed of expectation values."
+},
+"2.26": {
+"id": "2.26",
+"level": "L2",
+"search": "hyperbolic functions sinh cosh",
+"goal": "Use sinh, cosh, tanh (relativity and tunneling)."
+},
+"2.27": {
+"id": "2.27",
+"level": "L2",
+"search": "infinite series convergence tests",
+"goal": "Decide whether a series converges."
+},
+"2.28": {
+"id": "2.28",
+"level": "L2",
+"search": "power series and radius of convergence",
+"goal": "Write functions as infinite polynomials."
+},
+"2.29": {
+"id": "2.29",
+"level": "L2",
+"search": "Taylor series 3Blue1Brown",
+"goal": "Approximate any smooth function by polynomials; small-angle approximation."
+},
+"2.30": {
+"id": "2.30",
+"level": "L2",
+"search": "Taylor series of e^x sin cos and Euler's formula proof",
+"goal": "Prove e^(iθ) = cos θ + i sin θ from the series."
+},
+"2.31": {
+"id": "2.31",
+"level": "L2",
+"search": "arc length and volumes of revolution",
+"goal": "Apply integrals to geometry."
+},
+"2.32": {
+"id": "2.32",
+"level": "L2",
+"search": "Professor Leonard calculus 1 full course",
+"goal": "A full lecture course to fill any gaps with worked examples."
+},
+"3.1": {
+"id": "3.1",
+"level": "L1",
+"search": "essence of linear algebra 3Blue1Brown ([verified playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab))",
+"goal": "Watch it all; the rows below are its key checkpoints plus what it leaves out."
+},
+"3.2": {
+"id": "3.2",
+"level": "L1",
+"search": "vectors what even are they",
+"goal": "Vectors as arrows and as lists of numbers."
+},
+"3.3": {
+"id": "3.3",
+"level": "L1",
+"search": "linear combinations span basis vectors",
+"goal": "Build any vector from basis vectors."
+},
+"3.4": {
+"id": "3.4",
+"level": "L1",
+"search": "linear transformations and matrices",
+"goal": "A matrix is a recipe for where basis vectors land."
+},
+"3.5": {
+"id": "3.5",
+"level": "L1",
+"search": "matrix multiplication as composition",
+"goal": "Multiply matrices and know why order matters (AB ≠ BA)."
+},
+"3.6": {
+"id": "3.6",
+"level": "L1",
+"search": "determinant explained visually",
+"goal": "Determinant as area or volume scaling; det = 0 means squashing."
+},
+"3.7": {
+"id": "3.7",
+"level": "L1",
+"search": "inverse matrices column space null space rank",
+"goal": "When Ax = b has a solution."
+},
+"3.8": {
+"id": "3.8",
+"level": "L1",
+"search": "dot product and duality",
+"goal": "Dot product as projection."
+},
+"3.9": {
+"id": "3.9",
+"level": "L1",
+"search": "cross product explained",
+"goal": "Cross product for torque and angular momentum."
+},
+"3.10": {
+"id": "3.10",
+"level": "L1",
+"search": "change of basis",
+"goal": "The same vector in different coordinates (the heart of quantum \"representations\")."
+},
+"3.11": {
+"id": "3.11",
+"level": "L1",
+"search": "eigenvectors and eigenvalues",
+"goal": "Solve Av = λv. Measurement results in quantum mechanics are eigenvalues."
+},
+"3.12": {
+"id": "3.12",
+"level": "L2",
+"search": "quick trick for computing eigenvalues 3Blue1Brown",
+"goal": "Find 2×2 eigenvalues fast."
+},
+"3.13": {
+"id": "3.13",
+"level": "L2",
+"search": "diagonalization of a matrix",
+"goal": "Write A = PDP⁻¹ and use it."
+},
+"3.14": {
+"id": "3.14",
+"level": "L2",
+"search": "abstract vector spaces 3Blue1Brown ([verified link](https://www.youtube.com/watch?v=TgKwz5Ikpc8))",
+"goal": "Functions are vectors too; derivatives are linear operators."
+},
+"3.15": {
+"id": "3.15",
+"level": "L2",
+"search": "inner product spaces orthogonality",
+"goal": "Inner products, lengths, orthogonal and orthonormal bases."
+},
+"3.16": {
+"id": "3.16",
+"level": "L2",
+"search": "projections onto a subspace",
+"goal": "Project a vector; projection matrices P² = P."
+},
+"3.17": {
+"id": "3.17",
+"level": "L2",
+"search": "Gram Schmidt process",
+"goal": "Build an orthonormal basis."
+},
+"3.18": {
+"id": "3.18",
+"level": "L2",
+"search": "complex vector spaces and complex inner product",
+"goal": "Why the inner product conjugates one side."
+},
+"3.19": {
+"id": "3.19",
+"level": "L2",
+"search": "Hermitian matrices real eigenvalues",
+"goal": "Prove Hermitian matrices have real eigenvalues and orthogonal eigenvectors (they are observables)."
+},
+"3.20": {
+"id": "3.20",
+"level": "L2",
+"search": "unitary matrices",
+"goal": "Unitary matrices preserve length (time evolution and quantum gates)."
+},
+"3.21": {
+"id": "3.21",
+"level": "L2",
+"search": "spectral theorem explained",
+"goal": "Every Hermitian matrix is diagonal in some orthonormal basis."
+},
+"3.22": {
+"id": "3.22",
+"level": "L2",
+"search": "trace of a matrix",
+"goal": "Trace equals the sum of eigenvalues; it is basis-independent."
+},
+"3.23": {
+"id": "3.23",
+"level": "L2",
+"search": "commutator of matrices",
+"goal": "Compute [A, B] = AB − BA; non-commuting means no shared eigenbasis."
+},
+"3.24": {
+"id": "3.24",
+"level": "L2",
+"search": "matrix exponential",
+"goal": "Compute e^A; preview of e^(−iHt/ħ)."
+},
+"3.25": {
+"id": "3.25",
+"level": "L2",
+"search": "outer product and projection operators",
+"goal": "Build matrices from vectors (|a⟩⟨b| later)."
+},
+"3.26": {
+"id": "3.26",
+"level": "L2",
+"search": "Pauli matrices",
+"goal": "Know σx, σy, σz, their eigenvalues and commutators."
+},
+"3.27": {
+"id": "3.27",
+"level": "L2",
+"search": "tensor product Kronecker product",
+"goal": "Combine two vector spaces; the math of multi-particle states and entanglement."
+},
+"3.28": {
+"id": "3.28",
+"level": "L2",
+"search": "singular value decomposition visual",
+"goal": "Any matrix as rotate, stretch, rotate (later: Schmidt decomposition)."
+},
+"3.29": {
+"id": "3.29",
+"level": "L2",
+"search": "MIT 18.06 Gilbert Strang linear algebra",
+"goal": "A full lecture course for computational fluency."
+},
+"4.1": {
+"id": "4.1",
+"level": "L2",
+"search": "functions of several variables contour plots",
+"goal": "Picture f(x, y) as a surface and as contour lines."
+},
+"4.2": {
+"id": "4.2",
+"level": "L2",
+"search": "partial derivatives explained",
+"goal": "Differentiate in one variable while holding the others fixed."
+},
+"4.3": {
+"id": "4.3",
+"level": "L2",
+"search": "gradient explained visually",
+"goal": "The gradient points uphill; force = −∇(potential energy)."
+},
+"4.4": {
+"id": "4.4",
+"level": "L2",
+"search": "directional derivative",
+"goal": "Rate of change in any direction."
+},
+"4.5": {
+"id": "4.5",
+"level": "L2",
+"search": "multivariable chain rule",
+"goal": "Chain rule through several variables."
+},
+"4.6": {
+"id": "4.6",
+"level": "L2",
+"search": "multivariable Taylor series Hessian",
+"goal": "Approximate near a minimum by a quadratic bowl (why oscillators are everywhere)."
+},
+"4.7": {
+"id": "4.7",
+"level": "L2",
+"search": "Lagrange multipliers explained",
+"goal": "Optimize under a constraint (used to derive the Boltzmann distribution)."
+},
+"4.8": {
+"id": "4.8",
+"level": "L2",
+"search": "double and triple integrals",
+"goal": "Integrate over areas and volumes."
+},
+"4.9": {
+"id": "4.9",
+"level": "L2",
+"search": "change of variables Jacobian determinant",
+"goal": "Why integrals pick up a Jacobian factor."
+},
+"4.10": {
+"id": "4.10",
+"level": "L2",
+"search": "cylindrical and spherical coordinates volume element",
+"goal": "Use r² sin θ dr dθ dφ (the hydrogen atom needs this)."
+},
+"4.11": {
+"id": "4.11",
+"level": "L2",
+"search": "vector fields visualized",
+"goal": "Picture fields as arrows at every point."
+},
+"4.12": {
+"id": "4.12",
+"level": "L2",
+"search": "line integrals work",
+"goal": "Integrate along a path (work done by a force)."
+},
+"4.13": {
+"id": "4.13",
+"level": "L2",
+"search": "surface integrals and flux",
+"goal": "Measure how much field passes through a surface."
+},
+"4.14": {
+"id": "4.14",
+"level": "L2",
+"search": "divergence and curl 3Blue1Brown",
+"goal": "Divergence as outflow and curl as rotation (the language of Maxwell's equations)."
+},
+"4.15": {
+"id": "4.15",
+"level": "L2",
+"search": "Green's theorem",
+"goal": "Relate a loop integral to an area integral."
+},
+"4.16": {
+"id": "4.16",
+"level": "L2",
+"search": "Stokes' theorem explained",
+"goal": "Circulation equals the flux of curl."
+},
+"4.17": {
+"id": "4.17",
+"level": "L2",
+"search": "divergence theorem Gauss",
+"goal": "Total outflow equals the integral of divergence."
+},
+"4.18": {
+"id": "4.18",
+"level": "L2",
+"search": "conservative vector fields and potentials",
+"goal": "When a field is the gradient of a potential."
+},
+"4.19": {
+"id": "4.19",
+"level": "L2",
+"search": "Laplacian operator explained",
+"goal": "∇² as \"how different from your neighbours\"; it is the kinetic term in the Schrödinger equation."
+},
+"4.20": {
+"id": "4.20",
+"level": "L2",
+"search": "Laplacian in spherical coordinates",
+"goal": "Know its radial and angular parts."
+},
+"4.21": {
+"id": "4.21",
+"level": "L2",
+"search": "vector identities del operator",
+"goal": "Use ∇·(∇×A) = 0 and ∇×(∇f) = 0."
+},
+"4.22": {
+"id": "4.22",
+"level": "L2",
+"search": "Gaussian integral in n dimensions",
+"goal": "Integrate e^(−x·Ax) (preview of path integrals)."
+},
+"4.23": {
+"id": "4.23",
+"level": "L2",
+"search": "Khan Academy multivariable calculus Grant Sanderson",
+"goal": "A full visual course to fill gaps."
+},
+"5.1": {
+"id": "5.1",
+"level": "L2",
+"search": "differential equations a tourist's guide 3Blue1Brown ([verified link](https://www.youtube.com/watch?v=p_di4Zn4wz4))",
+"goal": "What a differential equation is; phase space; why most cannot be solved exactly."
+},
+"5.2": {
+"id": "5.2",
+"level": "L2",
+"search": "separable differential equations exponential decay",
+"goal": "Solve dN/dt = −λN (radioactive decay)."
+},
+"5.3": {
+"id": "5.3",
+"level": "L2",
+"search": "first order linear ODE integrating factor",
+"goal": "Solve y′ + p(x)y = q(x)."
+},
+"5.4": {
+"id": "5.4",
+"level": "L2",
+"search": "second order linear ODE constant coefficients characteristic equation",
+"goal": "Complex roots of the characteristic equation produce oscillations."
+},
+"5.5": {
+"id": "5.5",
+"level": "L2",
+"search": "simple harmonic oscillator differential equation",
+"goal": "Solve x″ = −ω²x by sines, cosines and complex exponentials."
+},
+"5.6": {
+"id": "5.6",
+"level": "L2",
+"search": "damped driven oscillator resonance",
+"goal": "Damping, resonance and the resonance curve."
+},
+"5.7": {
+"id": "5.7",
+"level": "L2",
+"search": "systems of differential equations matrix exponential",
+"goal": "Solve x′ = Ax with eigenvectors."
+},
+"5.8": {
+"id": "5.8",
+"level": "L2",
+"search": "boundary value problems and eigenvalue problems",
+"goal": "Boundary conditions allow only certain solutions: this is the math of quantization."
+},
+"5.9": {
+"id": "5.9",
+"level": "L2",
+"search": "But what is a partial differential equation 3Blue1Brown",
+"goal": "The heat equation as a first PDE."
+},
+"5.10": {
+"id": "5.10",
+"level": "L2",
+"search": "solving the heat equation separation of variables",
+"goal": "Split a PDE into ODEs."
+},
+"5.11": {
+"id": "5.11",
+"level": "L2",
+"search": "wave equation derivation string",
+"goal": "Derive and solve the 1D wave equation."
+},
+"5.12": {
+"id": "5.12",
+"level": "L2",
+"search": "But what is a Fourier series 3Blue1Brown drawing with circles",
+"goal": "Build any periodic function from sines and cosines."
+},
+"5.13": {
+"id": "5.13",
+"level": "L2",
+"search": "Fourier transform visual introduction 3Blue1Brown ([verified link](https://www.youtube.com/watch?v=spUNpyF58BY))",
+"goal": "Decompose a signal into frequencies."
+},
+"5.14": {
+"id": "5.14",
+"level": "L2",
+"search": "uncertainty principle and Fourier transforms 3Blue1Brown ([verified link](https://youtu.be/MBnnXbOM5S4))",
+"goal": "A narrow pulse has a wide spectrum; this is the uncertainty principle before quantum mechanics."
+},
+"5.15": {
+"id": "5.15",
+"level": "L2",
+"search": "But what is a convolution 3Blue1Brown",
+"goal": "Convolution and the convolution theorem."
+},
+"5.16": {
+"id": "5.16",
+"level": "L2",
+"search": "Dirac delta function explained",
+"goal": "Use δ(x) as an infinitely sharp spike with area 1."
+},
+"5.17": {
+"id": "5.17",
+"level": "L2",
+"search": "Fourier transform properties Parseval's theorem",
+"goal": "Energy is the same in position and frequency space."
+},
+"5.18": {
+"id": "5.18",
+"level": "L2",
+"search": "Laplace transform explained",
+"goal": "Turn ODEs into algebra."
+},
+"5.19": {
+"id": "5.19",
+"level": "L2",
+"search": "calculus of variations Euler-Lagrange equation brachistochrone",
+"goal": "Find the path that minimizes an integral (the gateway to least action)."
+},
+"5.20": {
+"id": "5.20",
+"level": "L3",
+"search": "Sturm-Liouville theory",
+"goal": "Why eigenfunctions of physical operators are orthogonal and complete."
+},
+"5.21": {
+"id": "5.21",
+"level": "L3",
+"search": "orthogonal polynomials explained",
+"goal": "Polynomials as orthogonal basis vectors."
+},
+"5.22": {
+"id": "5.22",
+"level": "L3",
+"search": "Legendre polynomials",
+"goal": "Angular solutions in spherical problems."
+},
+"5.23": {
+"id": "5.23",
+"level": "L3",
+"search": "spherical harmonics visualized",
+"goal": "The shapes of atomic orbitals come from these."
+},
+"5.24": {
+"id": "5.24",
+"level": "L3",
+"search": "Hermite polynomials harmonic oscillator",
+"goal": "The quantum oscillator's wavefunctions."
+},
+"5.25": {
+"id": "5.25",
+"level": "L3",
+"search": "Laguerre polynomials hydrogen atom",
+"goal": "The radial part of hydrogen wavefunctions."
+},
+"5.26": {
+"id": "5.26",
+"level": "L3",
+"search": "Bessel functions explained",
+"goal": "Cylindrical waves and drumheads."
+},
+"5.27": {
+"id": "5.27",
+"level": "L3",
+"search": "gamma function explained",
+"goal": "Factorials for non-integers."
+},
+"5.28": {
+"id": "5.28",
+"level": "L3",
+"search": "Green's functions explained",
+"goal": "Solve a PDE once for a point source, then add up (the idea behind propagators)."
+},
+"5.29": {
+"id": "5.29",
+"level": "L3",
+"search": "complex analysis introduction holomorphic functions Cauchy-Riemann",
+"goal": "What differentiable means for complex functions."
+},
+"5.30": {
+"id": "5.30",
+"level": "L3",
+"search": "contour integration and residue theorem",
+"goal": "Evaluate hard real integrals using complex poles."
+},
+"5.31": {
+"id": "5.31",
+"level": "L3",
+"search": "analytic continuation Riemann zeta function 3Blue1Brown",
+"goal": "How 1 + 2 + 3 + … gets assigned −1/12 (it shows up in the Casimir effect and string theory)."
+},
+"5.32": {
+"id": "5.32",
+"level": "L3",
+"search": "conformal maps complex analysis",
+"goal": "Angle-preserving maps."
+},
+"5.33": {
+"id": "5.33",
+"level": "L2",
+"search": "numerical methods Euler method Runge-Kutta",
+"goal": "Simulate an ODE on a computer."
+},
+"5.34": {
+"id": "5.34",
+"level": "L2",
+"search": "solve Schrodinger equation numerically Python finite difference",
+"goal": "Turn a PDE into a matrix eigenvalue problem and solve it."
+},
+"5.35": {
+"id": "5.35",
+"level": "L2",
+"search": "logistic map chaos Veritasium",
+"goal": "How simple equations produce chaos."
+},
+"5.36": {
+"id": "5.36",
+"level": "L2",
+"search": "Lorenz attractor chaos theory",
+"goal": "Sensitive dependence on initial conditions."
+},
+"5.37": {
+"id": "5.37",
+"level": "L3",
+"search": "perturbation methods asymptotic series",
+"goal": "Approximate when a parameter is small."
+},
+"6.1": {
+"id": "6.1",
+"level": "L0",
+"search": "probability basics explained",
+"goal": "Probability from 0 to 1; adding for \"or\", multiplying for \"and\"."
+},
+"6.2": {
+"id": "6.2",
+"level": "L1",
+"search": "conditional probability",
+"goal": "Compute P(A given B)."
+},
+"6.3": {
+"id": "6.3",
+"level": "L1",
+"search": "Bayes theorem 3Blue1Brown",
+"goal": "Update beliefs with evidence."
+},
+"6.4": {
+"id": "6.4",
+"level": "L1",
+"search": "random variables and expected value",
+"goal": "Compute an average outcome (expectation values later)."
+},
+"6.5": {
+"id": "6.5",
+"level": "L1",
+"search": "variance and standard deviation",
+"goal": "Measure spread. The Δx in the uncertainty principle is a standard deviation."
+},
+"6.6": {
+"id": "6.6",
+"level": "L1",
+"search": "probability density function continuous distributions",
+"goal": "Probability as area under a density curve; ∣ψ∣² is a density."
+},
+"6.7": {
+"id": "6.7",
+"level": "L1",
+"search": "binomial distribution",
+"goal": "Count successes in repeated trials."
+},
+"6.8": {
+"id": "6.8",
+"level": "L1",
+"search": "Poisson distribution",
+"goal": "Count rare events (photon detections, radioactive decays)."
+},
+"6.9": {
+"id": "6.9",
+"level": "L1",
+"search": "normal distribution Gaussian bell curve",
+"goal": "Use mean and σ of a Gaussian."
+},
+"6.10": {
+"id": "6.10",
+"level": "L2",
+"search": "central limit theorem 3Blue1Brown",
+"goal": "Why Gaussians appear everywhere."
+},
+"6.11": {
+"id": "6.11",
+"level": "L2",
+"search": "joint distributions independence covariance correlation",
+"goal": "Tell correlation from independence (key for Bell tests)."
+},
+"6.12": {
+"id": "6.12",
+"level": "L2",
+"search": "random walk and diffusion",
+"goal": "A random walk spreads as √t."
+},
+"6.13": {
+"id": "6.13",
+"level": "L2",
+"search": "Monte Carlo method explained",
+"goal": "Estimate answers with random sampling."
+},
+"6.14": {
+"id": "6.14",
+"level": "L2",
+"search": "Bayesian vs frequentist probability",
+"goal": "What probability means (this matters for QBism in Part 19)."
+},
+"6.15": {
+"id": "6.15",
+"level": "L2",
+"search": "five sigma statistical significance particle physics",
+"goal": "How discoveries like the Higgs boson are claimed."
+},
+"6.16": {
+"id": "6.16",
+"level": "L2",
+"search": "information theory Shannon entropy explained",
+"goal": "Information measured in bits (leads to von Neumann entropy)."
+},
+"6.17": {
+"id": "6.17",
+"level": "L2",
+"search": "Kullback-Leibler divergence and mutual information",
+"goal": "Distance between distributions; shared information."
+},
+"7.1": {
+"id": "7.1",
+"level": "L3",
+"search": "Hilbert space explained",
+"goal": "The infinite-dimensional vector space of square-integrable wavefunctions."
+},
+"7.2": {
+"id": "7.2",
+"level": "L3",
+"search": "functional analysis introduction",
+"goal": "Norms, completeness, operators on function spaces."
+},
+"7.3": {
+"id": "7.3",
+"level": "L3",
+"search": "differential operators as infinite matrices",
+"goal": "See d/dx as a linear operator with eigenfunctions."
+},
+"7.4": {
+"id": "7.4",
+"level": "L3",
+"search": "bounded and unbounded operators self-adjoint vs Hermitian",
+"goal": "Why position and momentum need extra care."
+},
+"7.5": {
+"id": "7.5",
+"level": "L3",
+"search": "discrete and continuous spectrum",
+"goal": "Bound states vs scattering states."
+},
+"7.6": {
+"id": "7.6",
+"level": "L3",
+"search": "theory of distributions generalized functions",
+"goal": "Make the delta function rigorous."
+},
+"7.7": {
+"id": "7.7",
+"level": "L4",
+"search": "rigged Hilbert space",
+"goal": "Why position eigenstates are not true Hilbert space vectors."
+},
+"7.8": {
+"id": "7.8",
+"level": "L2",
+"search": "group theory introduction symmetry",
+"goal": "Group axioms with rotations and permutations."
+},
+"7.9": {
+"id": "7.9",
+"level": "L3",
+"search": "group representations explained",
+"goal": "Groups acting as matrices on vector spaces."
+},
+"7.10": {
+"id": "7.10",
+"level": "L3",
+"search": "Lie groups and Lie algebras introduction",
+"goal": "Continuous symmetries and their generators."
+},
+"7.11": {
+"id": "7.11",
+"level": "L3",
+"search": "SO(3) and SU(2) double cover",
+"goal": "Why there are two kinds of rotation behaviour."
+},
+"7.12": {
+"id": "7.12",
+"level": "L3",
+"search": "spinors for beginners eigenchris",
+"goal": "Objects that flip sign after a 360° rotation."
+},
+"7.13": {
+"id": "7.13",
+"level": "L3",
+"search": "visualizing quaternions 3Blue1Brown",
+"goal": "Quaternions as 3D rotations (closely related to SU(2))."
+},
+"7.14": {
+"id": "7.14",
+"level": "L3",
+"search": "SU(3) group explained",
+"goal": "The symmetry behind quarks and color."
+},
+"7.15": {
+"id": "7.15",
+"level": "L3",
+"search": "Lorentz group and its representations",
+"goal": "How fields transform in relativity."
+},
+"7.16": {
+"id": "7.16",
+"level": "L2",
+"search": "tensors for beginners eigenchris",
+"goal": "Tensors as objects that transform predictably."
+},
+"7.17": {
+"id": "7.17",
+"level": "L2",
+"search": "Einstein summation index notation",
+"goal": "Read and manipulate index expressions."
+},
+"7.18": {
+"id": "7.18",
+"level": "L3",
+"search": "tensor calculus covariant derivative",
+"goal": "Derivatives on curved spaces."
+},
+"7.19": {
+"id": "7.19",
+"level": "L3",
+"search": "differential geometry manifolds introduction",
+"goal": "Curved spaces (needed for general relativity)."
+},
+"7.20": {
+"id": "7.20",
+"level": "L3",
+"search": "differential forms explained",
+"goal": "Coordinate-free integration."
+},
+"7.21": {
+"id": "7.21",
+"level": "L3",
+"search": "topology introduction homotopy",
+"goal": "Properties that survive smooth deformation (topological phases)."
+},
+"7.22": {
+"id": "7.22",
+"level": "L4",
+"search": "fiber bundles and gauge theory",
+"goal": "The geometry behind gauge fields and Berry phase."
+},
+"7.23": {
+"id": "7.23",
+"level": "L3",
+"search": "Clifford algebra geometric algebra",
+"goal": "The algebra behind Dirac's gamma matrices."
+},
+"7.24": {
+"id": "7.24",
+"level": "L4",
+"search": "Grassmann numbers",
+"goal": "Anticommuting numbers for fermion path integrals."
+},
+"7.25": {
+"id": "7.25",
+"level": "L4",
+"search": "functional integration path integral math",
+"goal": "Integrating over all functions."
+},
+"7.26": {
+"id": "7.26",
+"level": "L4",
+"search": "measure theory introduction",
+"goal": "Rigorous probability and integration."
+},
+"7.27": {
+"id": "7.27",
+"level": "L4",
+"search": "C*-algebras algebraic quantum field theory",
+"goal": "An operator-algebra view of quantum theory."
+},
+"7.28": {
+"id": "7.28",
+"level": "L4",
+"search": "category theory for physicists",
+"goal": "The language of the ZX-calculus and some quantum foundations work."
+},
+"8.1": {
+"id": "8.1",
+"level": "L0",
+"search": "distance displacement position physics",
+"goal": "Tell distance from displacement."
+},
+"8.2": {
+"id": "8.2",
+"level": "L0",
+"search": "speed velocity acceleration explained",
+"goal": "Velocity is a vector; acceleration is change in velocity."
+},
+"8.3": {
+"id": "8.3",
+"level": "L1",
+"search": "kinematic equations constant acceleration",
+"goal": "Solve motion problems with the four equations."
+},
+"8.4": {
+"id": "8.4",
+"level": "L1",
+"search": "projectile motion",
+"goal": "Horizontal and vertical motion are independent."
+},
+"8.5": {
+"id": "8.5",
+"level": "L1",
+"search": "Newton's first law inertia",
+"goal": "Objects keep moving unless a force acts."
+},
+"8.6": {
+"id": "8.6",
+"level": "L1",
+"search": "Newton's second law F = ma",
+"goal": "Use F = ma, and F = dp/dt."
+},
+"8.7": {
+"id": "8.7",
+"level": "L1",
+"search": "Newton's third law",
+"goal": "Forces come in pairs."
+},
+"8.8": {
+"id": "8.8",
+"level": "L1",
+"search": "free body diagrams",
+"goal": "Draw every force on an object and add them."
+},
+"8.9": {
+"id": "8.9",
+"level": "L1",
+"search": "friction static kinetic",
+"goal": "Model friction."
+},
+"8.10": {
+"id": "8.10",
+"level": "L1",
+"search": "circular motion centripetal force",
+"goal": "a = v²/r points inward."
+},
+"8.11": {
+"id": "8.11",
+"level": "L1",
+"search": "Newton's law of universal gravitation",
+"goal": "F = Gm₁m₂/r²."
+},
+"8.12": {
+"id": "8.12",
+"level": "L1",
+"search": "Kepler's laws of planetary motion",
+"goal": "Elliptical orbits and equal areas."
+},
+"8.13": {
+"id": "8.13",
+"level": "L1",
+"search": "work and energy physics",
+"goal": "Work = force × distance along the motion."
+},
+"8.14": {
+"id": "8.14",
+"level": "L1",
+"search": "kinetic potential energy conservation of energy",
+"goal": "Energy is conserved; trade KE for PE."
+},
+"8.15": {
+"id": "8.15",
+"level": "L1",
+"search": "power physics watts",
+"goal": "Power is energy per time."
+},
+"8.16": {
+"id": "8.16",
+"level": "L1",
+"search": "momentum and impulse conservation of momentum",
+"goal": "Total momentum is conserved."
+},
+"8.17": {
+"id": "8.17",
+"level": "L1",
+"search": "elastic and inelastic collisions",
+"goal": "Solve 1D collisions."
+},
+"8.18": {
+"id": "8.18",
+"level": "L1",
+"search": "center of mass",
+"goal": "Motion of a system as one point."
+},
+"8.19": {
+"id": "8.19",
+"level": "L1",
+"search": "torque and moment of inertia",
+"goal": "Rotational version of F = ma."
+},
+"8.20": {
+"id": "8.20",
+"level": "L1",
+"search": "angular momentum conservation",
+"goal": "L = r × p is conserved; spinning skaters (angular momentum gets quantized later)."
+},
+"8.21": {
+"id": "8.21",
+"level": "L1",
+"search": "gyroscope precession explained Veritasium",
+"goal": "Why a spinning top precesses (later: spin precession in magnetic fields)."
+},
+"8.22": {
+"id": "8.22",
+"level": "L1",
+"search": "Dzhanibekov effect tennis racket theorem Veritasium",
+"goal": "Why rotation about the middle axis is unstable."
+},
+"8.23": {
+"id": "8.23",
+"level": "L1",
+"search": "potential energy diagrams equilibrium turning points",
+"goal": "Read V(x) graphs: wells, barriers, turning points. Quantum problems are posed this way."
+},
+"8.24": {
+"id": "8.24",
+"level": "L1",
+"search": "simple harmonic motion spring pendulum",
+"goal": "ω = √(k/m); period independent of amplitude."
+},
+"8.25": {
+"id": "8.25",
+"level": "L1",
+"search": "reference frames Galilean relativity",
+"goal": "Physics is the same in all inertial frames."
+},
+"8.26": {
+"id": "8.26",
+"level": "L1",
+"search": "fictitious forces Coriolis centrifugal",
+"goal": "Forces in rotating frames."
+},
+"8.27": {
+"id": "8.27",
+"level": "L1",
+"search": "fluid pressure buoyancy basics",
+"goal": "Pressure, Archimedes' principle."
+},
+"8.28": {
+"id": "8.28",
+"level": "L2",
+"search": "coupled oscillators normal modes",
+"goal": "Normal modes are eigenvectors (phonons later)."
+},
+"8.29": {
+"id": "8.29",
+"level": "L2",
+"search": "central force problem reduced mass",
+"goal": "Reduce two bodies to one (setup for hydrogen)."
+},
+"8.30": {
+"id": "8.30",
+"level": "L2",
+"search": "orbits effective potential",
+"goal": "Use the effective potential with the centrifugal term."
+},
+"8.31": {
+"id": "8.31",
+"level": "L2",
+"search": "rigid body rotation Euler's equations",
+"goal": "Rotation of extended bodies."
+},
+"8.32": {
+"id": "8.32",
+"level": "L2",
+"search": "double pendulum chaos",
+"goal": "Deterministic chaos in mechanics."
+},
+"8.33": {
+"id": "8.33",
+"level": "L2",
+"search": "phase space explained",
+"goal": "A system's state as a point in (q, p) space."
+},
+"8.34": {
+"id": "8.34",
+"level": "L2",
+"search": "principle of least action Veritasium",
+"goal": "Nature picks the path that makes the action stationary."
+},
+"8.35": {
+"id": "8.35",
+"level": "L2",
+"search": "Lagrangian mechanics introduction",
+"goal": "L = T − V and generalized coordinates."
+},
+"8.36": {
+"id": "8.36",
+"level": "L2",
+"search": "Euler-Lagrange equations derivation",
+"goal": "Derive equations of motion from L."
+},
+"8.37": {
+"id": "8.37",
+"level": "L2",
+"search": "constraints and generalized coordinates",
+"goal": "Handle pendulums and beads on wires."
+},
+"8.38": {
+"id": "8.38",
+"level": "L2",
+"search": "Noether's theorem explained",
+"goal": "Each symmetry gives a conserved quantity."
+},
+"8.39": {
+"id": "8.39",
+"level": "L2",
+"search": "Hamiltonian mechanics introduction",
+"goal": "H = T + V, canonical momentum, Hamilton's equations. H becomes the quantum Hamiltonian."
+},
+"8.40": {
+"id": "8.40",
+"level": "L2",
+"search": "Legendre transformation Lagrangian to Hamiltonian",
+"goal": "Move from L to H."
+},
+"8.41": {
+"id": "8.41",
+"level": "L2",
+"search": "Poisson brackets",
+"goal": "{x, p} = 1 becomes [x, p] = iħ in quantum mechanics."
+},
+"8.42": {
+"id": "8.42",
+"level": "L3",
+"search": "Liouville's theorem phase space flow",
+"goal": "Phase-space volume is conserved."
+},
+"8.43": {
+"id": "8.43",
+"level": "L3",
+"search": "canonical transformations",
+"goal": "Change variables while keeping Hamilton's equations."
+},
+"8.44": {
+"id": "8.44",
+"level": "L3",
+"search": "Hamilton-Jacobi equation",
+"goal": "The classical equation closest to the Schrödinger equation."
+},
+"8.45": {
+"id": "8.45",
+"level": "L3",
+"search": "action-angle variables adiabatic invariants",
+"goal": "The basis of the old quantum theory (Bohr-Sommerfeld)."
+},
+"8.46": {
+"id": "8.46",
+"level": "L3",
+"search": "Laplace-Runge-Lenz vector hidden symmetry",
+"goal": "The hidden symmetry that later explains hydrogen's degeneracy."
+},
+"8.47": {
+"id": "8.47",
+"level": "L2",
+"search": "Susskind Theoretical Minimum classical mechanics",
+"goal": "A full lecture course on all of the above."
+},
+"9.1": {
+"id": "9.1",
+"level": "L0",
+"search": "what is a wave transverse longitudinal",
+"goal": "Waves carry energy, not matter."
+},
+"9.2": {
+"id": "9.2",
+"level": "L0",
+"search": "wavelength frequency amplitude wave speed",
+"goal": "Use v = fλ."
+},
+"9.3": {
+"id": "9.3",
+"level": "L1",
+"search": "superposition principle waves",
+"goal": "Waves add point by point. This is the core idea behind quantum superposition."
+},
+"9.4": {
+"id": "9.4",
+"level": "L1",
+"search": "constructive and destructive interference",
+"goal": "Path difference decides bright or dark."
+},
+"9.5": {
+"id": "9.5",
+"level": "L1",
+"search": "standing waves harmonics on a string",
+"goal": "Fixed ends allow only certain wavelengths. This is how quantization arises."
+},
+"9.6": {
+"id": "9.6",
+"level": "L1",
+"search": "resonance explained",
+"goal": "Driving at a natural frequency builds large amplitude."
+},
+"9.7": {
+"id": "9.7",
+"level": "L1",
+"search": "beats interference of frequencies",
+"goal": "Two close frequencies produce beats."
+},
+"9.8": {
+"id": "9.8",
+"level": "L1",
+"search": "Doppler effect",
+"goal": "Frequency shifts with motion."
+},
+"9.9": {
+"id": "9.9",
+"level": "L1",
+"search": "sound waves physics",
+"goal": "Sound as pressure waves."
+},
+"9.10": {
+"id": "9.10",
+"level": "L1",
+"search": "Chladni plates standing wave patterns",
+"goal": "2D standing waves (a visual cousin of atomic orbitals)."
+},
+"9.11": {
+"id": "9.11",
+"level": "L1",
+"search": "electromagnetic spectrum explained",
+"goal": "Radio to gamma rays: wavelength, frequency, energy."
+},
+"9.12": {
+"id": "9.12",
+"level": "L1",
+"search": "reflection and refraction Snell's law",
+"goal": "Light bends at boundaries."
+},
+"9.13": {
+"id": "9.13",
+"level": "L1",
+"search": "why light slows down in glass 3Blue1Brown",
+"goal": "Refractive index from electrons shaking."
+},
+"9.14": {
+"id": "9.14",
+"level": "L1",
+"search": "total internal reflection fiber optics",
+"goal": "Light trapped by reflection."
+},
+"9.15": {
+"id": "9.15",
+"level": "L1",
+"search": "lenses and mirrors ray optics",
+"goal": "Find images with ray diagrams."
+},
+"9.16": {
+"id": "9.16",
+"level": "L1",
+"search": "Fermat's principle of least time",
+"goal": "Light takes the quickest path (an early least-action principle)."
+},
+"9.17": {
+"id": "9.17",
+"level": "L1",
+"search": "Huygens principle",
+"goal": "Every point on a wavefront acts as a new source."
+},
+"9.18": {
+"id": "9.18",
+"level": "L1",
+"search": "single slit diffraction",
+"goal": "Narrower slit, wider spread."
+},
+"9.19": {
+"id": "9.19",
+"level": "L1",
+"search": "Young's double slit experiment light",
+"goal": "Derive the fringe spacing classically."
+},
+"9.20": {
+"id": "9.20",
+"level": "L1",
+"search": "diffraction grating spectra",
+"goal": "Split light into wavelengths."
+},
+"9.21": {
+"id": "9.21",
+"level": "L1",
+"search": "thin film interference soap bubbles",
+"goal": "Colors from interference."
+},
+"9.22": {
+"id": "9.22",
+"level": "L1",
+"search": "polarization of light polarizers",
+"goal": "Light as a transverse wave with direction."
+},
+"9.23": {
+"id": "9.23",
+"level": "L1",
+"search": "three polarizer paradox minutephysics 3Blue1Brown",
+"goal": "Adding a middle filter lets more light through; your first taste of quantum measurement."
+},
+"9.24": {
+"id": "9.24",
+"level": "L1",
+"search": "Malus's law",
+"goal": "Intensity through a polarizer goes as cos²θ (same rule as quantum probabilities)."
+},
+"9.25": {
+"id": "9.25",
+"level": "L2",
+"search": "Michelson interferometer",
+"goal": "Measure tiny distances with interference (LIGO, relativity)."
+},
+"9.26": {
+"id": "9.26",
+"level": "L2",
+"search": "wave packets group velocity phase velocity",
+"goal": "A localized wave as many frequencies combined."
+},
+"9.27": {
+"id": "9.27",
+"level": "L2",
+"search": "dispersion of waves",
+"goal": "Speed depending on frequency makes packets spread."
+},
+"9.28": {
+"id": "9.28",
+"level": "L2",
+"search": "coherence of light temporal spatial",
+"goal": "When waves can interfere."
+},
+"9.29": {
+"id": "9.29",
+"level": "L2",
+"search": "evanescent waves frustrated total internal reflection",
+"goal": "A classical version of quantum tunneling."
+},
+"9.30": {
+"id": "9.30",
+"level": "L2",
+"search": "birefringence and wave plates",
+"goal": "How optics labs prepare polarization states (qubits)."
+},
+"9.31": {
+"id": "9.31",
+"level": "L2",
+"search": "holography how it works",
+"goal": "Storing phase information with interference."
+},
+"9.32": {
+"id": "9.32",
+"level": "L3",
+"search": "solitons explained",
+"goal": "Waves that keep their shape."
+},
+"9.33": {
+"id": "9.33",
+"level": "L3",
+"search": "Fourier optics",
+"goal": "Lenses perform Fourier transforms."
+},
+"10.1": {
+"id": "10.1",
+"level": "L0",
+"search": "what is temperature really",
+"goal": "Temperature tracks the average kinetic energy of particles."
+},
+"10.2": {
+"id": "10.2",
+"level": "L0",
+"search": "heat vs temperature specific heat capacity",
+"goal": "Use Q = mcΔT."
+},
+"10.3": {
+"id": "10.3",
+"level": "L0",
+"search": "states of matter and phase changes latent heat",
+"goal": "Energy goes into changing phase at constant temperature."
+},
+"10.4": {
+"id": "10.4",
+"level": "L1",
+"search": "phase diagrams triple point critical point",
+"goal": "Read a phase diagram (helium's is very unusual)."
+},
+"10.5": {
+"id": "10.5",
+"level": "L1",
+"search": "ideal gas law PV = nRT",
+"goal": "Use the gas law in moles and in molecules (k_B)."
+},
+"10.6": {
+"id": "10.6",
+"level": "L1",
+"search": "kinetic theory of gases",
+"goal": "Derive pressure from molecules hitting walls."
+},
+"10.7": {
+"id": "10.7",
+"level": "L1",
+"search": "Maxwell-Boltzmann speed distribution",
+"goal": "Molecules have a spread of speeds."
+},
+"10.8": {
+"id": "10.8",
+"level": "L1",
+"search": "zeroth and first law of thermodynamics",
+"goal": "Energy conservation with heat and work."
+},
+"10.9": {
+"id": "10.9",
+"level": "L1",
+"search": "second law of thermodynamics",
+"goal": "Heat flows hot to cold; entropy of an isolated system rises."
+},
+"10.10": {
+"id": "10.10",
+"level": "L1",
+"search": "entropy Veritasium most misunderstood concept",
+"goal": "Entropy as the number of ways to arrange things."
+},
+"10.11": {
+"id": "10.11",
+"level": "L1",
+"search": "heat engines Carnot cycle efficiency",
+"goal": "Maximum efficiency 1 − T_cold/T_hot."
+},
+"10.12": {
+"id": "10.12",
+"level": "L1",
+"search": "third law of thermodynamics absolute zero",
+"goal": "Why absolute zero cannot be reached."
+},
+"10.13": {
+"id": "10.13",
+"level": "L1",
+"search": "how refrigerators work heat pumps",
+"goal": "Moving heat uphill with work."
+},
+"10.14": {
+"id": "10.14",
+"level": "L2",
+"search": "microstates macrostates Boltzmann entropy S = k log W",
+"goal": "Count microstates to get entropy."
+},
+"10.15": {
+"id": "10.15",
+"level": "L2",
+"search": "Boltzmann factor e^(-E/kT)",
+"goal": "Probability of a state at temperature T."
+},
+"10.16": {
+"id": "10.16",
+"level": "L2",
+"search": "partition function explained",
+"goal": "Get every thermodynamic quantity from Z."
+},
+"10.17": {
+"id": "10.17",
+"level": "L2",
+"search": "equipartition theorem",
+"goal": "Each quadratic degree of freedom gets ½kT, and where this fails (a quantum clue)."
+},
+"10.18": {
+"id": "10.18",
+"level": "L2",
+"search": "heat capacity of gases freezing out degrees of freedom",
+"goal": "Why rotations and vibrations \"switch off\" at low T (quantum energy gaps)."
+},
+"10.19": {
+"id": "10.19",
+"level": "L2",
+"search": "Einstein solid and Debye model heat capacity",
+"goal": "Quantum explanation of solids' heat capacity."
+},
+"10.20": {
+"id": "10.20",
+"level": "L2",
+"search": "Helmholtz and Gibbs free energy",
+"goal": "Which quantity is minimized at equilibrium."
+},
+"10.21": {
+"id": "10.21",
+"level": "L2",
+"search": "chemical potential explained",
+"goal": "The energy cost of adding a particle."
+},
+"10.22": {
+"id": "10.22",
+"level": "L2",
+"search": "microcanonical canonical grand canonical ensemble",
+"goal": "Pick the right ensemble."
+},
+"10.23": {
+"id": "10.23",
+"level": "L2",
+"search": "Gibbs paradox indistinguishable particles",
+"goal": "Classical counting fails unless identical particles are truly identical (a quantum hint)."
+},
+"10.24": {
+"id": "10.24",
+"level": "L2",
+"search": "Brownian motion Einstein proof atoms exist",
+"goal": "How random jiggling proved atoms are real."
+},
+"10.25": {
+"id": "10.25",
+"level": "L2",
+"search": "Maxwell's demon information and entropy",
+"goal": "Information has a thermodynamic cost (Landauer's principle)."
+},
+"10.26": {
+"id": "10.26",
+"level": "L2",
+"search": "arrow of time entropy Sean Carroll",
+"goal": "Why the past differs from the future."
+},
+"10.27": {
+"id": "10.27",
+"level": "L2",
+"search": "phase transitions and critical phenomena",
+"goal": "Order parameters and critical exponents."
+},
+"10.28": {
+"id": "10.28",
+"level": "L2",
+"search": "Ising model explained",
+"goal": "The simplest model of magnetism and phase transitions."
+},
+"10.29": {
+"id": "10.29",
+"level": "L3",
+"search": "mean field theory",
+"goal": "Approximate many interacting particles."
+},
+"10.30": {
+"id": "10.30",
+"level": "L3",
+"search": "renormalization group explained",
+"goal": "Physics at different scales (also central to quantum field theory)."
+},
+"10.31": {
+"id": "10.31",
+"level": "L3",
+"search": "negative absolute temperature",
+"goal": "Systems hotter than infinite temperature."
+},
+"10.32": {
+"id": "10.32",
+"level": "L3",
+"search": "fluctuation-dissipation theorem",
+"goal": "Noise and friction are linked."
+},
+"10.33": {
+"id": "10.33",
+"level": "L3",
+"search": "non-equilibrium thermodynamics Jarzynski equality",
+"goal": "Exact results far from equilibrium."
+},
+"11.1": {
+"id": "11.1",
+"level": "L0",
+"search": "electric charge explained",
+"goal": "Two kinds of charge; charge is conserved."
+},
+"11.2": {
+"id": "11.2",
+"level": "L1",
+"search": "Coulomb's law",
+"goal": "F = kq₁q₂/r²."
+},
+"11.3": {
+"id": "11.3",
+"level": "L1",
+"search": "conductors and insulators",
+"goal": "Why charges move in some materials only."
+},
+"11.4": {
+"id": "11.4",
+"level": "L1",
+"search": "electric field and field lines",
+"goal": "The field as force per unit charge."
+},
+"11.5": {
+"id": "11.5",
+"level": "L1",
+"search": "electric potential and voltage",
+"goal": "Voltage is energy per charge."
+},
+"11.6": {
+"id": "11.6",
+"level": "L1",
+"search": "electron volt unit explained",
+"goal": "1 eV = 1.6 × 10⁻¹⁹ J; atomic energies are a few eV."
+},
+"11.7": {
+"id": "11.7",
+"level": "L1",
+"search": "capacitors explained",
+"goal": "Storing charge and energy."
+},
+"11.8": {
+"id": "11.8",
+"level": "L1",
+"search": "current resistance Ohm's law",
+"goal": "V = IR."
+},
+"11.9": {
+"id": "11.9",
+"level": "L1",
+"search": "series and parallel circuits",
+"goal": "Analyze simple circuits."
+},
+"11.10": {
+"id": "11.10",
+"level": "L1",
+"search": "big misconception about electricity Veritasium",
+"goal": "Energy travels in the fields, not the wires."
+},
+"11.11": {
+"id": "11.11",
+"level": "L1",
+"search": "magnets and magnetic fields",
+"goal": "Field lines and poles."
+},
+"11.12": {
+"id": "11.12",
+"level": "L1",
+"search": "Lorentz force charged particle in magnetic field",
+"goal": "Charges circle in a magnetic field (cyclotrons, mass spectrometers)."
+},
+"11.13": {
+"id": "11.13",
+"level": "L1",
+"search": "magnetic field from a current Ampere's law",
+"goal": "Currents make magnetic fields."
+},
+"11.14": {
+"id": "11.14",
+"level": "L1",
+"search": "electromagnetic induction Faraday's law Lenz's law",
+"goal": "Changing magnetic fields make voltages."
+},
+"11.15": {
+"id": "11.15",
+"level": "L2",
+"search": "Gauss's law explained",
+"goal": "Flux through a closed surface equals the enclosed charge."
+},
+"11.16": {
+"id": "11.16",
+"level": "L2",
+"search": "Biot-Savart law",
+"goal": "Compute fields from currents."
+},
+"11.17": {
+"id": "11.17",
+"level": "L2",
+"search": "Maxwell's equations explained visually",
+"goal": "All four equations in words and pictures."
+},
+"11.18": {
+"id": "11.18",
+"level": "L2",
+"search": "how Maxwell's equations predict light",
+"goal": "Derive the wave equation and the speed of light."
+},
+"11.19": {
+"id": "11.19",
+"level": "L2",
+"search": "energy in electromagnetic fields Poynting vector",
+"goal": "Fields carry energy and momentum."
+},
+"11.20": {
+"id": "11.20",
+"level": "L2",
+"search": "magnetic dipole moment current loop",
+"goal": "A loop of current is a tiny magnet; spin works similarly."
+},
+"11.21": {
+"id": "11.21",
+"level": "L2",
+"search": "force on a magnetic dipole in a non-uniform field",
+"goal": "Needed to understand the Stern-Gerlach experiment."
+},
+"11.22": {
+"id": "11.22",
+"level": "L2",
+"search": "diamagnetism paramagnetism ferromagnetism",
+"goal": "Three kinds of magnetism (all quantum in origin)."
+},
+"11.23": {
+"id": "11.23",
+"level": "L2",
+"search": "dielectrics and polarization of materials",
+"goal": "How matter responds to fields."
+},
+"11.24": {
+"id": "11.24",
+"level": "L2",
+"search": "scalar and vector potential electromagnetism",
+"goal": "E and B from φ and A (needed for the Aharonov-Bohm effect)."
+},
+"11.25": {
+"id": "11.25",
+"level": "L2",
+"search": "gauge invariance electromagnetism",
+"goal": "Different potentials give the same fields."
+},
+"11.26": {
+"id": "11.26",
+"level": "L2",
+"search": "radiation from accelerating charges Larmor formula",
+"goal": "Why a classical orbiting electron would spiral into the nucleus."
+},
+"11.27": {
+"id": "11.27",
+"level": "L2",
+"search": "how special relativity makes magnets work Veritasium",
+"goal": "Magnetism as electricity seen from another frame."
+},
+"11.28": {
+"id": "11.28",
+"level": "L2",
+"search": "AC circuits and transformers",
+"goal": "Alternating current basics."
+},
+"11.29": {
+"id": "11.29",
+"level": "L2",
+"search": "plasma physics basics",
+"goal": "The fourth state of matter."
+},
+"11.30": {
+"id": "11.30",
+"level": "L3",
+"search": "multipole expansion electrostatics",
+"goal": "Monopole, dipole, quadrupole."
+},
+"11.31": {
+"id": "11.31",
+"level": "L3",
+"search": "electromagnetism Lagrangian field theory",
+"goal": "Maxwell's equations from a Lagrangian (bridge to QFT)."
+},
+"11.32": {
+"id": "11.32",
+"level": "L2",
+"search": "MIT 8.02 Walter Lewin electricity and magnetism",
+"goal": "A full lecture course with live demonstrations."
+},
+"12.1": {
+"id": "12.1",
+"level": "L1",
+"search": "Michelson-Morley experiment",
+"goal": "No ether: light's speed does not depend on the observer."
+},
+"12.2": {
+"id": "12.2",
+"level": "L1",
+"search": "postulates of special relativity",
+"goal": "Same laws in every inertial frame; same speed of light."
+},
+"12.3": {
+"id": "12.3",
+"level": "L1",
+"search": "minutephysics introduction to special relativity spacetime diagrams",
+"goal": "Read spacetime diagrams."
+},
+"12.4": {
+"id": "12.4",
+"level": "L1",
+"search": "time dilation explained",
+"goal": "Moving clocks run slow by γ = 1/√(1 − v²/c²)."
+},
+"12.5": {
+"id": "12.5",
+"level": "L1",
+"search": "length contraction",
+"goal": "Moving objects shrink along their motion."
+},
+"12.6": {
+"id": "12.6",
+"level": "L1",
+"search": "relativity of simultaneity",
+"goal": "\"At the same time\" depends on the observer."
+},
+"12.7": {
+"id": "12.7",
+"level": "L1",
+"search": "twin paradox resolved",
+"goal": "Why the travelling twin is younger."
+},
+"12.8": {
+"id": "12.8",
+"level": "L1",
+"search": "muon decay time dilation evidence",
+"goal": "Real evidence for time dilation."
+},
+"12.9": {
+"id": "12.9",
+"level": "L2",
+"search": "Lorentz transformation derivation",
+"goal": "Transform coordinates between frames."
+},
+"12.10": {
+"id": "12.10",
+"level": "L2",
+"search": "spacetime interval and light cones",
+"goal": "The invariant interval; causality."
+},
+"12.11": {
+"id": "12.11",
+"level": "L2",
+"search": "four-vectors and four-momentum",
+"goal": "Energy and momentum as one 4-vector."
+},
+"12.12": {
+"id": "12.12",
+"level": "L2",
+"search": "E = mc² derivation",
+"goal": "Mass is a form of energy."
+},
+"12.13": {
+"id": "12.13",
+"level": "L2",
+"search": "energy momentum relation E² = (pc)² + (mc²)²",
+"goal": "Massless photons still carry momentum p = E/c."
+},
+"12.14": {
+"id": "12.14",
+"level": "L2",
+"search": "relativistic Doppler effect",
+"goal": "Redshift from motion."
+},
+"12.15": {
+"id": "12.15",
+"level": "L2",
+"search": "rapidity and hyperbolic geometry of spacetime",
+"goal": "Boosts as hyperbolic rotations."
+},
+"12.16": {
+"id": "12.16",
+"level": "L1",
+"search": "equivalence principle explained",
+"goal": "Gravity and acceleration are locally indistinguishable."
+},
+"12.17": {
+"id": "12.17",
+"level": "L1",
+"search": "why gravity is not a force Veritasium",
+"goal": "Free fall is natural motion through curved spacetime."
+},
+"12.18": {
+"id": "12.18",
+"level": "L1",
+"search": "gravitational time dilation GPS",
+"goal": "Clocks run slower deeper in gravity; GPS corrects for it."
+},
+"12.19": {
+"id": "12.19",
+"level": "L1",
+"search": "ScienceClic general relativity visualized",
+"goal": "Visual intuition for curved spacetime."
+},
+"12.20": {
+"id": "12.20",
+"level": "L2",
+"search": "metric tensor explained",
+"goal": "How the metric measures distances in spacetime."
+},
+"12.21": {
+"id": "12.21",
+"level": "L2",
+"search": "geodesics in curved spacetime",
+"goal": "Paths of free-falling objects."
+},
+"12.22": {
+"id": "12.22",
+"level": "L3",
+"search": "Riemann curvature tensor explained",
+"goal": "How curvature is measured."
+},
+"12.23": {
+"id": "12.23",
+"level": "L3",
+"search": "Einstein field equations explained",
+"goal": "Matter tells spacetime how to curve."
+},
+"12.24": {
+"id": "12.24",
+"level": "L2",
+"search": "Schwarzschild metric black holes",
+"goal": "The spacetime outside a black hole; event horizon."
+},
+"12.25": {
+"id": "12.25",
+"level": "L2",
+"search": "Penrose diagrams explained",
+"goal": "Map infinite spacetimes on a page."
+},
+"12.26": {
+"id": "12.26",
+"level": "L2",
+"search": "gravitational waves LIGO explained",
+"goal": "Ripples of spacetime and how they were detected."
+},
+"12.27": {
+"id": "12.27",
+"level": "L2",
+"search": "rotating black holes Kerr ergosphere",
+"goal": "Frame dragging."
+},
+"12.28": {
+"id": "12.28",
+"level": "L1",
+"search": "expanding universe Hubble's law",
+"goal": "Galaxies recede faster the farther they are."
+},
+"12.29": {
+"id": "12.29",
+"level": "L2",
+"search": "Friedmann equations cosmology",
+"goal": "How the universe's expansion depends on its contents."
+},
+"12.30": {
+"id": "12.30",
+"level": "L1",
+"search": "cosmic microwave background explained",
+"goal": "Light left over from 380,000 years after the Big Bang."
+},
+"12.31": {
+"id": "12.31",
+"level": "L2",
+"search": "dark matter and dark energy evidence",
+"goal": "What we know and do not know."
+},
+"12.32": {
+"id": "12.32",
+"level": "L2",
+"search": "Susskind Theoretical Minimum special relativity and general relativity",
+"goal": "Full lecture courses on both theories."
+},
+"13.1": {
+"id": "13.1",
+"level": "L0",
+"search": "elements compounds mixtures",
+"goal": "Tell the three apart."
+},
+"13.2": {
+"id": "13.2",
+"level": "L0",
+"search": "history of the atom Dalton Thomson Rutherford Bohr",
+"goal": "How the picture of the atom changed."
+},
+"13.3": {
+"id": "13.3",
+"level": "L0",
+"search": "protons neutrons electrons atomic number mass number",
+"goal": "Read an element's symbol, Z and A."
+},
+"13.4": {
+"id": "13.4",
+"level": "L0",
+"search": "isotopes explained",
+"goal": "Same element, different neutron count (helium-3 vs helium-4)."
+},
+"13.5": {
+"id": "13.5",
+"level": "L0",
+"search": "the mole and Avogadro's number",
+"goal": "1 mol = 6.022 × 10²³ particles."
+},
+"13.6": {
+"id": "13.6",
+"level": "L0",
+"search": "periodic table explained trends",
+"goal": "Groups, periods and trends in size and reactivity."
+},
+"13.7": {
+"id": "13.7",
+"level": "L0",
+"search": "Periodic Videos helium",
+"goal": "An element-by-element channel; start with helium."
+},
+"13.8": {
+"id": "13.8",
+"level": "L0",
+"search": "electron shells valence electrons",
+"goal": "Valence electrons decide chemistry."
+},
+"13.9": {
+"id": "13.9",
+"level": "L1",
+"search": "electron configuration s p d f orbitals",
+"goal": "Write configurations like 1s² 2s² 2p⁶."
+},
+"13.10": {
+"id": "13.10",
+"level": "L1",
+"search": "Aufbau principle Hund's rule Pauli exclusion",
+"goal": "Fill orbitals correctly (all three rules are quantum)."
+},
+"13.11": {
+"id": "13.11",
+"level": "L1",
+"search": "ionization energy and electron affinity",
+"goal": "Energy to remove or add an electron."
+},
+"13.12": {
+"id": "13.12",
+"level": "L1",
+"search": "electronegativity",
+"goal": "Which atom pulls electrons harder."
+},
+"13.13": {
+"id": "13.13",
+"level": "L1",
+"search": "ionic bonding",
+"goal": "Electron transfer and lattices."
+},
+"13.14": {
+"id": "13.14",
+"level": "L1",
+"search": "covalent bonding",
+"goal": "Electron sharing."
+},
+"13.15": {
+"id": "13.15",
+"level": "L1",
+"search": "metallic bonding",
+"goal": "A sea of electrons."
+},
+"13.16": {
+"id": "13.16",
+"level": "L1",
+"search": "Lewis structures",
+"goal": "Draw molecules with lone pairs and bonds."
+},
+"13.17": {
+"id": "13.17",
+"level": "L1",
+"search": "VSEPR molecular geometry",
+"goal": "Predict molecular shapes."
+},
+"13.18": {
+"id": "13.18",
+"level": "L1",
+"search": "polar and nonpolar molecules",
+"goal": "Dipoles from uneven sharing."
+},
+"13.19": {
+"id": "13.19",
+"level": "L1",
+"search": "intermolecular forces hydrogen bonding London dispersion",
+"goal": "Forces between molecules (London forces are a quantum effect)."
+},
+"13.20": {
+"id": "13.20",
+"level": "L0",
+"search": "balancing chemical equations",
+"goal": "Conserve atoms in reactions."
+},
+"13.21": {
+"id": "13.21",
+"level": "L1",
+"search": "stoichiometry",
+"goal": "Calculate amounts in reactions."
+},
+"13.22": {
+"id": "13.22",
+"level": "L1",
+"search": "acids and bases pH",
+"goal": "Proton transfer and the pH scale."
+},
+"13.23": {
+"id": "13.23",
+"level": "L1",
+"search": "redox reactions oxidation reduction",
+"goal": "Electron transfer reactions."
+},
+"13.24": {
+"id": "13.24",
+"level": "L1",
+"search": "reaction rates activation energy catalysts",
+"goal": "Energy barriers to reactions (quantum tunneling can bypass them)."
+},
+"13.25": {
+"id": "13.25",
+"level": "L1",
+"search": "chemical equilibrium Le Chatelier",
+"goal": "Reversible reactions balance."
+},
+"13.26": {
+"id": "13.26",
+"level": "L1",
+"search": "enthalpy thermochemistry Hess's law",
+"goal": "Heat of reaction."
+},
+"13.27": {
+"id": "13.27",
+"level": "L2",
+"search": "Gibbs free energy spontaneity",
+"goal": "ΔG = ΔH − TΔS."
+},
+"13.28": {
+"id": "13.28",
+"level": "L1",
+"search": "atomic emission spectra flame test",
+"goal": "Each element emits its own colors."
+},
+"13.29": {
+"id": "13.29",
+"level": "L1",
+"search": "why things have color absorption",
+"goal": "Color from electrons jumping between levels."
+},
+"13.30": {
+"id": "13.30",
+"level": "L1",
+"search": "fluorescence and phosphorescence",
+"goal": "Delayed light emission and why it differs."
+},
+"13.31": {
+"id": "13.31",
+"level": "L2",
+"search": "hybridization sp3 sp2 sp",
+"goal": "Mixing orbitals to explain shapes."
+},
+"13.32": {
+"id": "13.32",
+"level": "L2",
+"search": "molecular orbital theory bonding antibonding",
+"goal": "Atomic orbitals combine into molecular orbitals."
+},
+"13.33": {
+"id": "13.33",
+"level": "L2",
+"search": "why oxygen is paramagnetic liquid oxygen magnet",
+"goal": "Molecular orbitals predict that O₂ is magnetic."
+},
+"13.34": {
+"id": "13.34",
+"level": "L2",
+"search": "conjugation aromaticity benzene delocalized electrons",
+"goal": "Electrons spread over a whole molecule (particle-in-a-box chemistry)."
+},
+"13.35": {
+"id": "13.35",
+"level": "L2",
+"search": "infrared spectroscopy molecular vibrations",
+"goal": "Bonds vibrate at quantized frequencies."
+},
+"13.36": {
+"id": "13.36",
+"level": "L2",
+"search": "NMR spectroscopy how it works",
+"goal": "Nuclear spin flips reveal structure (the basis of MRI)."
+},
+"13.37": {
+"id": "13.37",
+"level": "L2",
+"search": "crystal structures unit cells",
+"goal": "Lattices like FCC and BCC."
+},
+"13.38": {
+"id": "13.38",
+"level": "L2",
+"search": "allotropes of carbon diamond graphite graphene",
+"goal": "Same atoms, different bonding."
+},
+"13.39": {
+"id": "13.39",
+"level": "L1",
+"search": "radioactivity alpha beta gamma",
+"goal": "Three types of radiation."
+},
+"13.40": {
+"id": "13.40",
+"level": "L1",
+"search": "half-life explained",
+"goal": "Exponential decay of nuclei."
+},
+"13.41": {
+"id": "13.41",
+"level": "L1",
+"search": "nuclear fission and fusion",
+"goal": "Energy from splitting and joining nuclei."
+},
+"13.42": {
+"id": "13.42",
+"level": "L1",
+"search": "organic chemistry functional groups basics",
+"goal": "Carbon chemistry for the biology part."
+},
+"13.43": {
+"id": "13.43",
+"level": "L1",
+"search": "chirality in molecules",
+"goal": "Left- and right-handed molecules."
+},
+"13.44": {
+"id": "13.44",
+"level": "L2",
+"search": "why gold is yellow relativity",
+"goal": "Relativistic effects on gold's electrons give its color."
+},
+"13.45": {
+"id": "13.45",
+"level": "L2",
+"search": "why mercury is liquid relativistic effects",
+"goal": "Relativity explains mercury's low melting point."
+},
+"13.46": {
+"id": "13.46",
+"level": "L3",
+"search": "Hartree-Fock method",
+"goal": "Approximate many-electron atoms and molecules."
+},
+"13.47": {
+"id": "13.47",
+"level": "L3",
+"search": "density functional theory explained",
+"goal": "The workhorse of computational chemistry."
+},
+"13.48": {
+"id": "13.48",
+"level": "L3",
+"search": "quantum chemistry on quantum computers",
+"goal": "Why molecule simulation is a key quantum computing goal."
+},
+"13.49": {
+"id": "13.49",
+"level": "L1",
+"search": "Crash Course Chemistry",
+"goal": "A full course to fill gaps."
+},
+"14.1": {
+"id": "14.1",
+"level": "L1",
+"search": "Thomson cathode ray experiment discovery of the electron",
+"goal": "Atoms contain smaller charged particles."
+},
+"14.2": {
+"id": "14.2",
+"level": "L1",
+"search": "Millikan oil drop experiment",
+"goal": "Electric charge comes in fixed units."
+},
+"14.3": {
+"id": "14.3",
+"level": "L1",
+"search": "Rutherford gold foil experiment",
+"goal": "The atom has a tiny dense nucleus."
+},
+"14.4": {
+"id": "14.4",
+"level": "L1",
+"search": "why classical atoms should collapse",
+"goal": "Classical theory says orbiting electrons radiate and crash in about 10⁻¹¹ s."
+},
+"14.5": {
+"id": "14.5",
+"level": "L1",
+"search": "blackbody radiation ultraviolet catastrophe",
+"goal": "Classical physics predicts infinite energy at short wavelengths."
+},
+"14.6": {
+"id": "14.6",
+"level": "L1",
+"search": "Planck's constant and quantization E = hf",
+"goal": "Planck's fix: energy comes in packets hf."
+},
+"14.7": {
+"id": "14.7",
+"level": "L1",
+"search": "photoelectric effect explained",
+"goal": "Light knocks out electrons in packets (photons), set by frequency not brightness."
+},
+"14.8": {
+"id": "14.8",
+"level": "L1",
+"search": "hydrogen spectrum Balmer series Rydberg formula",
+"goal": "Hydrogen emits only specific wavelengths."
+},
+"14.9": {
+"id": "14.9",
+"level": "L1",
+"search": "Bohr model of the atom",
+"goal": "Quantized orbits explain hydrogen's lines (and where the model fails)."
+},
+"14.10": {
+"id": "14.10",
+"level": "L1",
+"search": "Franck-Hertz experiment",
+"goal": "Atoms absorb energy only in fixed amounts."
+},
+"14.11": {
+"id": "14.11",
+"level": "L1",
+"search": "Compton scattering",
+"goal": "Photons carry momentum like particles."
+},
+"14.12": {
+"id": "14.12",
+"level": "L1",
+"search": "de Broglie wavelength matter waves",
+"goal": "Everything has a wavelength λ = h/p."
+},
+"14.13": {
+"id": "14.13",
+"level": "L1",
+"search": "Davisson-Germer experiment electron diffraction",
+"goal": "Electrons diffract like waves."
+},
+"14.14": {
+"id": "14.14",
+"level": "L1",
+"search": "Stern-Gerlach experiment explained",
+"goal": "Silver atoms split into exactly two beams: spin is quantized."
+},
+"14.15": {
+"id": "14.15",
+"level": "L1",
+"search": "Zeeman effect",
+"goal": "Spectral lines split in a magnetic field."
+},
+"14.16": {
+"id": "14.16",
+"level": "L2",
+"search": "Bohr-Sommerfeld quantization old quantum theory",
+"goal": "The first quantization rules and why they were abandoned."
+},
+"14.17": {
+"id": "14.17",
+"level": "L1",
+"search": "original double slit experiment Veritasium",
+"goal": "Thomas Young's experiment and its quantum future."
+},
+"14.18": {
+"id": "14.18",
+"level": "L1",
+"search": "Heisenberg Helgoland matrix mechanics history",
+"goal": "How Heisenberg invented quantum mechanics in 1925."
+},
+"14.19": {
+"id": "14.19",
+"level": "L1",
+"search": "Schrödinger wave mechanics history 1926",
+"goal": "How the wave equation arrived."
+},
+"14.20": {
+"id": "14.20",
+"level": "L1",
+"search": "Solvay conference 1927 Einstein Bohr debates",
+"goal": "The founders' arguments over what it all means."
+},
+"14.21": {
+"id": "14.21",
+"level": "L1",
+"search": "Dirac antimatter prediction Anderson positron discovery",
+"goal": "Theory predicted antimatter before it was seen."
+},
+"14.22": {
+"id": "14.22",
+"level": "L1",
+"search": "history of quantum mechanics documentary",
+"goal": "The whole story in one sitting."
+},
+"15.1": {
+"id": "15.1",
+"level": "L1",
+"search": "double slit experiment single electrons",
+"goal": "One particle at a time still builds an interference pattern."
+},
+"15.2": {
+"id": "15.2",
+"level": "L1",
+"search": "wave-particle duality explained",
+"goal": "Quantum objects are neither classical waves nor classical particles."
+},
+"15.3": {
+"id": "15.3",
+"level": "L1",
+"search": "what is a wavefunction",
+"goal": "ψ(x) is a complex amplitude spread over space."
+},
+"15.4": {
+"id": "15.4",
+"level": "L1",
+"search": "Born rule probability amplitude",
+"goal": "Probability density = ∣ψ∣²; amplitudes interfere, probabilities do not."
+},
+"15.5": {
+"id": "15.5",
+"level": "L1",
+"search": "quantum superposition explained",
+"goal": "A state can be a sum of other states."
+},
+"15.6": {
+"id": "15.6",
+"level": "L1",
+"search": "measurement and wavefunction collapse",
+"goal": "Measuring gives one definite outcome and resets the state."
+},
+"15.7": {
+"id": "15.7",
+"level": "L1",
+"search": "Heisenberg uncertainty principle explained",
+"goal": "Δx·Δp ≥ ħ/2 comes from wave behaviour, not clumsy measurement."
+},
+"15.8": {
+"id": "15.8",
+"level": "L1",
+"search": "quantization what does quantized mean",
+"goal": "Bound systems allow only certain energies."
+},
+"15.9": {
+"id": "15.9",
+"level": "L1",
+"search": "quantum spin explained",
+"goal": "Spin is intrinsic angular momentum, not literal spinning."
+},
+"15.10": {
+"id": "15.10",
+"level": "L1",
+"search": "Schrödinger equation explained visually",
+"goal": "How the equation evolves ψ in time."
+},
+"15.11": {
+"id": "15.11",
+"level": "L2",
+"search": "time-independent Schrödinger equation stationary states",
+"goal": "Energy eigenstates only change by a phase."
+},
+"15.12": {
+"id": "15.12",
+"level": "L2",
+"search": "particle in a box infinite square well",
+"goal": "Derive Eₙ ∝ n²; draw the wavefunctions."
+},
+"15.13": {
+"id": "15.13",
+"level": "L2",
+"search": "finite square well bound states",
+"goal": "A finite well has a limited number of bound states, and ψ leaks into the walls."
+},
+"15.14": {
+"id": "15.14",
+"level": "L2",
+"search": "quantum tunneling explained",
+"goal": "Particles cross barriers they classically cannot (the decay is exponential in width)."
+},
+"15.15": {
+"id": "15.15",
+"level": "L2",
+"search": "step potential quantum reflection transmission",
+"goal": "Particles can reflect even when they have enough energy to pass."
+},
+"15.16": {
+"id": "15.16",
+"level": "L2",
+"search": "quantum harmonic oscillator",
+"goal": "Equally spaced levels Eₙ = ħω(n + ½)."
+},
+"15.17": {
+"id": "15.17",
+"level": "L2",
+"search": "zero-point energy explained",
+"goal": "The lowest energy is never zero."
+},
+"15.18": {
+"id": "15.18",
+"level": "L2",
+"search": "free particle wave packet spreading",
+"goal": "Localized particles spread over time."
+},
+"15.19": {
+"id": "15.19",
+"level": "L2",
+"search": "expectation values quantum mechanics",
+"goal": "Compute average position and momentum from ψ."
+},
+"15.20": {
+"id": "15.20",
+"level": "L2",
+"search": "probability current quantum",
+"goal": "How probability flows."
+},
+"15.21": {
+"id": "15.21",
+"level": "L2",
+"search": "delta function potential quantum",
+"goal": "The simplest bound state and scattering problem."
+},
+"15.22": {
+"id": "15.22",
+"level": "L2",
+"search": "quantum mechanics in 3D separation of variables",
+"goal": "Boxes and oscillators in 3D; degeneracy."
+},
+"15.23": {
+"id": "15.23",
+"level": "L1",
+"search": "Mach-Zehnder interferometer single photon",
+"goal": "The cleanest experiment for superposition and interference."
+},
+"15.24": {
+"id": "15.24",
+"level": "L1",
+"search": "quantum entanglement explained",
+"goal": "Joint states that cannot be split into separate parts."
+},
+"15.25": {
+"id": "15.25",
+"level": "L1",
+"search": "EPR paradox explained",
+"goal": "Einstein's argument that quantum mechanics is incomplete."
+},
+"15.26": {
+"id": "15.26",
+"level": "L1",
+"search": "Bell's theorem quantum Venn diagram paradox",
+"goal": "Correlations no local hidden variables can explain."
+},
+"15.27": {
+"id": "15.27",
+"level": "L1",
+"search": "Schrödinger's cat explained",
+"goal": "Superposition scaled up to absurdity."
+},
+"15.28": {
+"id": "15.28",
+"level": "L1",
+"search": "quantum eraser experiment explained",
+"goal": "Which-path information destroys interference (and what it does not prove)."
+},
+"15.29": {
+"id": "15.29",
+"level": "L1",
+"search": "Wheeler delayed choice experiment",
+"goal": "The choice of measurement made after the photon passes."
+},
+"15.30": {
+"id": "15.30",
+"level": "L2",
+"search": "quantum decoherence explained",
+"goal": "Why the everyday world looks classical."
+},
+"15.31": {
+"id": "15.31",
+"level": "L1",
+"search": "Copenhagen interpretation explained",
+"goal": "The textbook interpretation and its rules."
+},
+"15.32": {
+"id": "15.32",
+"level": "L1",
+"search": "Feynman QED lectures Auckland sum over paths",
+"goal": "Feynman's own visual explanation of light as arrows that add."
+},
+"15.33": {
+"id": "15.33",
+"level": "L1",
+"search": "Veritasium Feynman path integral",
+"goal": "Particles \"try every path\"; how classical paths emerge."
+},
+"15.34": {
+"id": "15.34",
+"level": "L1",
+"search": "Looking Glass Universe quantum mechanics",
+"goal": "A carefully built intro series."
+},
+"15.35": {
+"id": "15.35",
+"level": "L1",
+"search": "PBS Space Time quantum mechanics playlist",
+"goal": "Deep conceptual episodes on every topic here."
+},
+"15.36": {
+"id": "15.36",
+"level": "L2",
+"search": "MIT 8.04 quantum physics Allan Adams",
+"goal": "A full university course with the math."
+},
+"16.1": {
+"id": "16.1",
+"level": "L2",
+"search": "Dirac bra-ket notation explained",
+"goal": "Read and write kets ∣ψ⟩, bras ⟨φ∣ and brackets ⟨φ∣ψ⟩."
+},
+"16.2": {
+"id": "16.2",
+"level": "L2",
+"search": "postulates of quantum mechanics",
+"goal": "The rules: states, observables, measurement, evolution."
+},
+"16.3": {
+"id": "16.3",
+"level": "L2",
+"search": "observables as Hermitian operators",
+"goal": "Every measurable quantity is a Hermitian operator."
+},
+"16.4": {
+"id": "16.4",
+"level": "L2",
+"search": "eigenstates eigenvalues measurement postulate",
+"goal": "Outcomes are eigenvalues; probabilities are squared overlaps."
+},
+"16.5": {
+"id": "16.5",
+"level": "L2",
+"search": "position and momentum operators",
+"goal": "p̂ = −iħ d/dx and why."
+},
+"16.6": {
+"id": "16.6",
+"level": "L2",
+"search": "canonical commutation relation [x, p] = iħ",
+"goal": "The algebra behind uncertainty."
+},
+"16.7": {
+"id": "16.7",
+"level": "L2",
+"search": "generalized uncertainty principle Robertson derivation",
+"goal": "Derive ΔA·ΔB ≥ ½∣⟨[A, B]⟩∣."
+},
+"16.8": {
+"id": "16.8",
+"level": "L2",
+"search": "compatible observables commuting operators",
+"goal": "Commuting observables can be known together."
+},
+"16.9": {
+"id": "16.9",
+"level": "L2",
+"search": "position and momentum space wavefunctions",
+"goal": "They are Fourier transforms of each other."
+},
+"16.10": {
+"id": "16.10",
+"level": "L2",
+"search": "time evolution operator unitary",
+"goal": "∣ψ(t)⟩ = e^(−iHt/ħ)∣ψ(0)⟩."
+},
+"16.11": {
+"id": "16.11",
+"level": "L2",
+"search": "Schrödinger Heisenberg interaction picture",
+"goal": "Three equivalent ways to describe time evolution."
+},
+"16.12": {
+"id": "16.12",
+"level": "L2",
+"search": "Ehrenfest theorem",
+"goal": "Averages obey classical equations."
+},
+"16.13": {
+"id": "16.13",
+"level": "L2",
+"search": "ladder operators harmonic oscillator",
+"goal": "Solve the oscillator algebraically with a and a†."
+},
+"16.14": {
+"id": "16.14",
+"level": "L2",
+"search": "coherent states quantum harmonic oscillator",
+"goal": "The most classical-looking quantum states (laser light)."
+},
+"16.15": {
+"id": "16.15",
+"level": "L2",
+"search": "angular momentum operators commutation relations",
+"goal": "[Lx, Ly] = iħLz and what it implies."
+},
+"16.16": {
+"id": "16.16",
+"level": "L2",
+"search": "orbital angular momentum and spherical harmonics",
+"goal": "Eigenstates ∣l, m⟩ and their shapes."
+},
+"16.17": {
+"id": "16.17",
+"level": "L2",
+"search": "spin one half Pauli matrices",
+"goal": "Spin up and down; spin along any axis."
+},
+"16.18": {
+"id": "16.18",
+"level": "L2",
+"search": "Bloch sphere explained",
+"goal": "Every spin-½ state as a point on a sphere."
+},
+"16.19": {
+"id": "16.19",
+"level": "L2",
+"search": "sequential Stern-Gerlach experiments",
+"goal": "Measuring z then x then z again scrambles z."
+},
+"16.20": {
+"id": "16.20",
+"level": "L2",
+"search": "Larmor precession spin in magnetic field",
+"goal": "Spin precesses in a magnetic field."
+},
+"16.21": {
+"id": "16.21",
+"level": "L2",
+"search": "Rabi oscillations",
+"goal": "Driving a two-level system flips it back and forth."
+},
+"16.22": {
+"id": "16.22",
+"level": "L3",
+"search": "addition of angular momentum Clebsch-Gordan coefficients",
+"goal": "Combine two spins into total spin."
+},
+"16.23": {
+"id": "16.23",
+"level": "L3",
+"search": "singlet and triplet states",
+"goal": "Two spin-½ particles make spin 0 or 1 (key to helium and bonding)."
+},
+"16.24": {
+"id": "16.24",
+"level": "L3",
+"search": "Wigner-Eckart theorem",
+"goal": "Selection rules from symmetry."
+},
+"16.25": {
+"id": "16.25",
+"level": "L2",
+"search": "density matrix pure and mixed states",
+"goal": "Describe uncertainty about the state itself."
+},
+"16.26": {
+"id": "16.26",
+"level": "L3",
+"search": "partial trace reduced density matrix",
+"goal": "The state of one part of an entangled system."
+},
+"16.27": {
+"id": "16.27",
+"level": "L3",
+"search": "Schmidt decomposition entanglement",
+"goal": "Measure how entangled two parts are."
+},
+"16.28": {
+"id": "16.28",
+"level": "L3",
+"search": "POVM generalized measurement",
+"goal": "Measurements beyond projections."
+},
+"16.29": {
+"id": "16.29",
+"level": "L3",
+"search": "Lindblad master equation open quantum systems",
+"goal": "How systems lose coherence to their environment."
+},
+"16.30": {
+"id": "16.30",
+"level": "L3",
+"search": "symmetry in quantum mechanics generators",
+"goal": "Translations generate momentum; rotations generate angular momentum."
+},
+"16.31": {
+"id": "16.31",
+"level": "L3",
+"search": "parity and time reversal quantum mechanics",
+"goal": "Discrete symmetries and their consequences."
+},
+"16.32": {
+"id": "16.32",
+"level": "L3",
+"search": "Kramers degeneracy",
+"goal": "Time reversal forces degeneracy for half-integer spin."
+},
+"16.33": {
+"id": "16.33",
+"level": "L3",
+"search": "propagator quantum mechanics",
+"goal": "The amplitude to go from x to x′ in time t."
+},
+"16.34": {
+"id": "16.34",
+"level": "L3",
+"search": "Feynman path integral derivation",
+"goal": "Derive the path integral from the Schrödinger equation."
+},
+"16.35": {
+"id": "16.35",
+"level": "L3",
+"search": "WKB approximation",
+"goal": "Semiclassical solutions and tunneling rates."
+},
+"16.36": {
+"id": "16.36",
+"level": "L3",
+"search": "variational principle quantum mechanics",
+"goal": "Estimate ground-state energies."
+},
+"16.37": {
+"id": "16.37",
+"level": "L3",
+"search": "time-independent perturbation theory",
+"goal": "Correct energies and states for small changes."
+},
+"16.38": {
+"id": "16.38",
+"level": "L3",
+"search": "degenerate perturbation theory",
+"goal": "Handle equal-energy states."
+},
+"16.39": {
+"id": "16.39",
+"level": "L3",
+"search": "time-dependent perturbation theory Fermi's golden rule",
+"goal": "Transition rates (why atoms emit light at the rates they do)."
+},
+"16.40": {
+"id": "16.40",
+"level": "L3",
+"search": "selection rules atomic transitions",
+"goal": "Which jumps are allowed."
+},
+"16.41": {
+"id": "16.41",
+"level": "L3",
+"search": "adiabatic theorem quantum",
+"goal": "Slow changes keep a system in its eigenstate."
+},
+"16.42": {
+"id": "16.42",
+"level": "L3",
+"search": "Berry phase geometric phase",
+"goal": "A phase picked up purely from the path's geometry."
+},
+"16.43": {
+"id": "16.43",
+"level": "L3",
+"search": "sudden approximation",
+"goal": "What happens when changes are fast."
+},
+"16.44": {
+"id": "16.44",
+"level": "L3",
+"search": "scattering theory cross section",
+"goal": "How collisions are described and measured."
+},
+"16.45": {
+"id": "16.45",
+"level": "L3",
+"search": "Born approximation",
+"goal": "Weak-scattering results."
+},
+"16.46": {
+"id": "16.46",
+"level": "L3",
+"search": "partial wave analysis phase shifts",
+"goal": "Scattering by angular momentum channels."
+},
+"16.47": {
+"id": "16.47",
+"level": "L3",
+"search": "scattering resonances and bound states",
+"goal": "Peaks in cross sections and Breit-Wigner shapes."
+},
+"16.48": {
+"id": "16.48",
+"level": "L3",
+"search": "Susskind Theoretical Minimum quantum mechanics",
+"goal": "A full lecture course."
+},
+"16.49": {
+"id": "16.49",
+"level": "L3",
+"search": "MIT 8.05 Barton Zwiebach quantum physics II",
+"goal": "Full course on the formalism."
+},
+"16.50": {
+"id": "16.50",
+"level": "L3",
+"search": "MIT 8.06 quantum physics III",
+"goal": "Full course on approximation methods and applications."
+},
+"16.51": {
+"id": "16.51",
+"level": "L3",
+"search": "Brant Carlson quantum mechanics lectures",
+"goal": "A lecture series that follows Griffiths' textbook."
+},
+"17.1": {
+"id": "17.1",
+"level": "L2",
+"search": "hydrogen atom Schrödinger equation solution",
+"goal": "Separate into radial and angular parts; Eₙ = −13.6 eV/n²."
+},
+"17.2": {
+"id": "17.2",
+"level": "L2",
+"search": "hydrogen orbitals visualized 3D",
+"goal": "Picture 1s, 2p, 3d and their nodes."
+},
+"17.3": {
+"id": "17.3",
+"level": "L2",
+"search": "quantum numbers n l m s explained",
+"goal": "What each quantum number counts."
+},
+"17.4": {
+"id": "17.4",
+"level": "L3",
+"search": "hidden symmetry of hydrogen SO(4) degeneracy",
+"goal": "Why 2s and 2p have the same energy."
+},
+"17.5": {
+"id": "17.5",
+"level": "L3",
+"search": "spin-orbit coupling fine structure",
+"goal": "Small splittings from spin and relativity."
+},
+"17.6": {
+"id": "17.6",
+"level": "L3",
+"search": "Zeeman effect quantum anomalous",
+"goal": "Level splitting in magnetic fields."
+},
+"17.7": {
+"id": "17.7",
+"level": "L3",
+"search": "Stark effect",
+"goal": "Level splitting in electric fields."
+},
+"17.8": {
+"id": "17.8",
+"level": "L3",
+"search": "hyperfine structure 21 cm hydrogen line",
+"goal": "The spin flip that maps hydrogen across the galaxy."
+},
+"17.9": {
+"id": "17.9",
+"level": "L3",
+"search": "Lamb shift explained",
+"goal": "A tiny shift only quantum electrodynamics explains."
+},
+"17.10": {
+"id": "17.10",
+"level": "L2",
+"search": "identical particles exchange symmetry",
+"goal": "Swapping identical particles leaves physics unchanged."
+},
+"17.11": {
+"id": "17.11",
+"level": "L2",
+"search": "bosons vs fermions explained",
+"goal": "Integer spin → bosons; half-integer → fermions."
+},
+"17.12": {
+"id": "17.12",
+"level": "L2",
+"search": "Pauli exclusion principle explained",
+"goal": "No two fermions can share a state."
+},
+"17.13": {
+"id": "17.13",
+"level": "L2",
+"search": "why helium-4 is a boson composite particle spin",
+"goal": "Count spins: 2 protons + 2 neutrons + 2 electrons give a whole number."
+},
+"17.14": {
+"id": "17.14",
+"level": "L3",
+"search": "spin-statistics theorem",
+"goal": "Why spin decides boson or fermion (it needs relativity)."
+},
+"17.15": {
+"id": "17.15",
+"level": "L2",
+"search": "Bose-Einstein and Fermi-Dirac statistics",
+"goal": "How bosons crowd together and fermions avoid each other."
+},
+"17.16": {
+"id": "17.16",
+"level": "L3",
+"search": "exchange interaction explained",
+"goal": "A \"force\" from symmetry alone; why magnets exist."
+},
+"17.17": {
+"id": "17.17",
+"level": "L3",
+"search": "helium atom and multi-electron atoms",
+"goal": "Electron repulsion; para- and orthohelium."
+},
+"17.18": {
+"id": "17.18",
+"level": "L2",
+"search": "periodic table explained by quantum mechanics",
+"goal": "Shell filling from quantum numbers and the Pauli principle."
+},
+"17.19": {
+"id": "17.19",
+"level": "L3",
+"search": "hydrogen molecule ion covalent bond quantum",
+"goal": "Why sharing an electron lowers the energy."
+},
+"17.20": {
+"id": "17.20",
+"level": "L3",
+"search": "Born-Oppenheimer approximation",
+"goal": "Separate fast electrons from slow nuclei."
+},
+"17.21": {
+"id": "17.21",
+"level": "L3",
+"search": "rotational and vibrational spectra of molecules",
+"goal": "Quantized rotation and vibration."
+},
+"17.22": {
+"id": "17.22",
+"level": "L3",
+"search": "Raman scattering explained",
+"goal": "Light scattering with energy exchange."
+},
+"17.23": {
+"id": "17.23",
+"level": "L2",
+"search": "how lasers work stimulated emission",
+"goal": "Bosonic photons copying each other; population inversion."
+},
+"17.24": {
+"id": "17.24",
+"level": "L2",
+"search": "free electron model Fermi energy",
+"goal": "Electrons in metals fill states up to the Fermi energy."
+},
+"17.25": {
+"id": "17.25",
+"level": "L2",
+"search": "degeneracy pressure white dwarfs neutron stars",
+"goal": "The Pauli principle holds up dead stars."
+},
+"17.26": {
+"id": "17.26",
+"level": "L2",
+"search": "Chandrasekhar limit",
+"goal": "Above about 1.4 solar masses, electron degeneracy fails."
+},
+"17.27": {
+"id": "17.27",
+"level": "L3",
+"search": "crystal lattices and Bloch's theorem",
+"goal": "Electrons in a periodic potential."
+},
+"17.28": {
+"id": "17.28",
+"level": "L2",
+"search": "band theory conductors insulators semiconductors",
+"goal": "Gaps between bands decide conductivity."
+},
+"17.29": {
+"id": "17.29",
+"level": "L2",
+"search": "holes in semiconductors",
+"goal": "Missing electrons that act like positive particles."
+},
+"17.30": {
+"id": "17.30",
+"level": "L2",
+"search": "how semiconductors work doping p-n junction",
+"goal": "n- and p-type, diodes."
+},
+"17.31": {
+"id": "17.31",
+"level": "L2",
+"search": "how transistors work",
+"goal": "Switching current with voltage."
+},
+"17.32": {
+"id": "17.32",
+"level": "L2",
+"search": "how LEDs and solar cells work band gap",
+"goal": "Band gaps set light colors and absorption."
+},
+"17.33": {
+"id": "17.33",
+"level": "L2",
+"search": "quantum dots explained",
+"goal": "Artificial atoms; color from size."
+},
+"17.34": {
+"id": "17.34",
+"level": "L2",
+"search": "phonons explained",
+"goal": "Quantized lattice vibrations."
+},
+"17.35": {
+"id": "17.35",
+"level": "L2",
+"search": "quasiparticles explained",
+"goal": "Collective behaviour that acts like a particle."
+},
+"17.36": {
+"id": "17.36",
+"level": "L3",
+"search": "magnons spin waves",
+"goal": "Quantized waves of magnetism."
+},
+"17.37": {
+"id": "17.37",
+"level": "L3",
+"search": "excitons polaritons plasmons",
+"goal": "Three more quasiparticles and where they appear."
+},
+"17.38": {
+"id": "17.38",
+"level": "L3",
+"search": "Bohr-van Leeuwen theorem magnetism is quantum",
+"goal": "Classical physics predicts no magnetism at all."
+},
+"17.39": {
+"id": "17.39",
+"level": "L2",
+"search": "superconductivity explained Cooper pairs BCS",
+"goal": "Electron pairs act as bosons and flow without resistance."
+},
+"17.40": {
+"id": "17.40",
+"level": "L2",
+"search": "Meissner effect quantum levitation flux pinning",
+"goal": "Superconductors expel and pin magnetic fields."
+},
+"17.41": {
+"id": "17.41",
+"level": "L3",
+"search": "Josephson effect and SQUID",
+"goal": "Supercurrents tunnel through barriers; ultra-sensitive magnetometers."
+},
+"17.42": {
+"id": "17.42",
+"level": "L3",
+"search": "flux quantization superconducting ring",
+"goal": "Magnetic flux comes in units of h/2e."
+},
+"17.43": {
+"id": "17.43",
+"level": "L3",
+"search": "high temperature superconductors cuprates",
+"goal": "An unsolved problem in physics."
+},
+"17.44": {
+"id": "17.44",
+"level": "L2",
+"search": "superfluid helium explained lambda point",
+"goal": "Helium-4 below 2.17 K flows with zero viscosity."
+},
+"17.45": {
+"id": "17.45",
+"level": "L2",
+"search": "Liquid Helium II the Superfluid 1963 Alfred Leitner film",
+"goal": "Classic footage: creeping films and the fountain effect."
+},
+"17.46": {
+"id": "17.46",
+"level": "L3",
+"search": "second sound in superfluid helium",
+"goal": "Heat travels as a wave."
+},
+"17.47": {
+"id": "17.47",
+"level": "L3",
+"search": "quantized vortices in superfluids",
+"goal": "Rotation comes in discrete whirlpools."
+},
+"17.48": {
+"id": "17.48",
+"level": "L3",
+"search": "superfluid helium-3 Cooper pairs of atoms",
+"goal": "Fermionic helium-3 pairs up at about 2.5 mK."
+},
+"17.49": {
+"id": "17.49",
+"level": "L2",
+"search": "Bose-Einstein condensate explained",
+"goal": "Many bosons in one quantum state."
+},
+"17.50": {
+"id": "17.50",
+"level": "L2",
+"search": "first Bose-Einstein condensate 1995 Cornell Wieman",
+"goal": "How rubidium was cooled to a BEC."
+},
+"17.51": {
+"id": "17.51",
+"level": "L2",
+"search": "laser cooling and magneto-optical trap",
+"goal": "Slowing atoms with light."
+},
+"17.52": {
+"id": "17.52",
+"level": "L2",
+"search": "dilution refrigerator how to reach millikelvin",
+"goal": "How labs reach near absolute zero."
+},
+"17.53": {
+"id": "17.53",
+"level": "L3",
+"search": "degenerate Fermi gas ultracold atoms",
+"goal": "Fermions cooled until Pauli exclusion dominates."
+},
+"17.54": {
+"id": "17.54",
+"level": "L3",
+"search": "optical lattice Mott insulator superfluid transition",
+"goal": "Atoms in egg-crate light patterns."
+},
+"17.55": {
+"id": "17.55",
+"level": "L4",
+"search": "BEC-BCS crossover",
+"goal": "One continuum from tight molecules to loose Cooper pairs."
+},
+"17.56": {
+"id": "17.56",
+"level": "L3",
+"search": "quantum Hall effect explained",
+"goal": "Resistance quantized in units of h/e²."
+},
+"17.57": {
+"id": "17.57",
+"level": "L3",
+"search": "fractional quantum Hall effect anyons",
+"goal": "Quasiparticles with fractional charge."
+},
+"17.58": {
+"id": "17.58",
+"level": "L3",
+"search": "topological insulators explained",
+"goal": "Insulating inside, conducting on the surface."
+},
+"17.59": {
+"id": "17.59",
+"level": "L3",
+"search": "graphene Dirac cone massless electrons",
+"goal": "Electrons that act like massless relativistic particles."
+},
+"17.60": {
+"id": "17.60",
+"level": "L3",
+"search": "twisted bilayer graphene magic angle",
+"goal": "Superconductivity from a twist of 1.1°."
+},
+"17.61": {
+"id": "17.61",
+"level": "L3",
+"search": "Anderson localization",
+"goal": "Disorder can trap waves completely."
+},
+"17.62": {
+"id": "17.62",
+"level": "L3",
+"search": "Kondo effect",
+"goal": "Why some metals' resistance rises as they cool."
+},
+"17.63": {
+"id": "17.63",
+"level": "L2",
+"search": "spintronics giant magnetoresistance",
+"goal": "Spin-based electronics in hard drives."
+},
+"17.64": {
+"id": "17.64",
+"level": "L2",
+"search": "scanning tunneling microscope how it works",
+"goal": "Imaging single atoms with tunneling current."
+},
+"17.65": {
+"id": "17.65",
+"level": "L2",
+"search": "A Boy and His Atom IBM",
+"goal": "A movie made by moving single atoms."
+},
+"17.66": {
+"id": "17.66",
+"level": "L2",
+"search": "nuclear shell model magic numbers",
+"goal": "Nucleons fill shells like electrons do."
+},
+"17.67": {
+"id": "17.67",
+"level": "L2",
+"search": "alpha decay quantum tunneling Gamow",
+"goal": "Alpha particles escape the nucleus by tunneling."
+},
+"17.68": {
+"id": "17.68",
+"level": "L2",
+"search": "quantum tunneling makes the sun shine",
+"goal": "Fusion in the sun needs tunneling."
+},
+"17.69": {
+"id": "17.69",
+"level": "L3",
+"search": "Mössbauer effect",
+"goal": "Recoil-free gamma emission."
+},
+"17.70": {
+"id": "17.70",
+"level": "L3",
+"search": "David Tong condensed matter / solid state physics lectures",
+"goal": "A full course to tie the part together."
+},
+"18.1": {
+"id": "18.1",
+"level": "L1",
+"search": "what is a qubit",
+"goal": "A qubit is a two-level system in superposition."
+},
+"18.2": {
+"id": "18.2",
+"level": "L2",
+"search": "quantum gates Hadamard CNOT Pauli",
+"goal": "Apply single- and two-qubit gates as matrices."
+},
+"18.3": {
+"id": "18.3",
+"level": "L2",
+"search": "quantum circuits explained",
+"goal": "Read and draw circuit diagrams."
+},
+"18.4": {
+"id": "18.4",
+"level": "L2",
+"search": "Bell states creating entanglement circuit",
+"goal": "Make entanglement with H then CNOT."
+},
+"18.5": {
+"id": "18.5",
+"level": "L2",
+"search": "no-cloning theorem",
+"goal": "Unknown quantum states cannot be copied."
+},
+"18.6": {
+"id": "18.6",
+"level": "L2",
+"search": "quantum teleportation explained",
+"goal": "Send a state using entanglement plus 2 classical bits."
+},
+"18.7": {
+"id": "18.7",
+"level": "L2",
+"search": "superdense coding",
+"goal": "Send 2 bits with 1 qubit."
+},
+"18.8": {
+"id": "18.8",
+"level": "L2",
+"search": "quantum key distribution BB84",
+"goal": "Eavesdropping is detectable."
+},
+"18.9": {
+"id": "18.9",
+"level": "L2",
+"search": "E91 entanglement based cryptography",
+"goal": "Security from Bell tests."
+},
+"18.10": {
+"id": "18.10",
+"level": "L2",
+"search": "Deutsch-Jozsa algorithm",
+"goal": "The first quantum speedup."
+},
+"18.11": {
+"id": "18.11",
+"level": "L2",
+"search": "Grover's algorithm 3Blue1Brown",
+"goal": "√N search speedup."
+},
+"18.12": {
+"id": "18.12",
+"level": "L2",
+"search": "quantum Fourier transform",
+"goal": "The engine of Shor's algorithm."
+},
+"18.13": {
+"id": "18.13",
+"level": "L2",
+"search": "Shor's algorithm explained minutephysics",
+"goal": "Factoring fast enough to break RSA."
+},
+"18.14": {
+"id": "18.14",
+"level": "L3",
+"search": "phase estimation algorithm",
+"goal": "Read out eigenvalues with a quantum computer."
+},
+"18.15": {
+"id": "18.15",
+"level": "L3",
+"search": "variational quantum eigensolver",
+"goal": "Hybrid algorithms for chemistry."
+},
+"18.16": {
+"id": "18.16",
+"level": "L3",
+"search": "quantum simulation Feynman",
+"goal": "Using quantum systems to simulate quantum systems."
+},
+"18.17": {
+"id": "18.17",
+"level": "L2",
+"search": "quantum error correction explained",
+"goal": "Protect qubits without measuring them directly."
+},
+"18.18": {
+"id": "18.18",
+"level": "L3",
+"search": "surface code",
+"goal": "The leading error-correction scheme."
+},
+"18.19": {
+"id": "18.19",
+"level": "L3",
+"search": "threshold theorem fault tolerance",
+"goal": "Below an error rate, computation can scale."
+},
+"18.20": {
+"id": "18.20",
+"level": "L2",
+"search": "superconducting trapped ion photonic neutral atom qubits",
+"goal": "Compare the hardware platforms."
+},
+"18.21": {
+"id": "18.21",
+"level": "L2",
+"search": "quantum supremacy quantum advantage Google",
+"goal": "What has actually been demonstrated."
+},
+"18.22": {
+"id": "18.22",
+"level": "L3",
+"search": "topological quantum computing Majorana",
+"goal": "Qubits protected by topology."
+},
+"18.23": {
+"id": "18.23",
+"level": "L3",
+"search": "measurement based quantum computing cluster states",
+"goal": "Compute by measuring an entangled state."
+},
+"18.24": {
+"id": "18.24",
+"level": "L3",
+"search": "adiabatic quantum computing quantum annealing",
+"goal": "Computing by slow evolution."
+},
+"18.25": {
+"id": "18.25",
+"level": "L3",
+"search": "von Neumann entropy entanglement entropy",
+"goal": "Measure entanglement in bits."
+},
+"18.26": {
+"id": "18.26",
+"level": "L3",
+"search": "quantum channels noise models",
+"goal": "Depolarizing, amplitude and phase damping."
+},
+"18.27": {
+"id": "18.27",
+"level": "L3",
+"search": "Holevo bound",
+"goal": "A qubit can carry at most 1 classical bit."
+},
+"18.28": {
+"id": "18.28",
+"level": "L2",
+"search": "loophole-free Bell test 2022 Nobel prize Aspect Clauser Zeilinger",
+"goal": "How Bell's theorem was tested experimentally."
+},
+"18.29": {
+"id": "18.29",
+"level": "L2",
+"search": "CHSH inequality explained",
+"goal": "The quantum limit 2√2 vs classical 2."
+},
+"18.30": {
+"id": "18.30",
+"level": "L3",
+"search": "entanglement swapping",
+"goal": "Entangle particles that never met."
+},
+"18.31": {
+"id": "18.31",
+"level": "L2",
+"search": "quantum internet explained",
+"goal": "Networks of entanglement."
+},
+"18.32": {
+"id": "18.32",
+"level": "L2",
+"search": "quantum random number generator",
+"goal": "True randomness from quantum measurement."
+},
+"18.33": {
+"id": "18.33",
+"level": "L3",
+"search": "quantum complexity theory BQP",
+"goal": "What quantum computers can and cannot do."
+},
+"18.34": {
+"id": "18.34",
+"level": "L4",
+"search": "ZX-calculus",
+"goal": "A diagram language for quantum circuits."
+},
+"18.35": {
+"id": "18.35",
+"level": "L2",
+"search": "Qiskit tutorial first quantum circuit",
+"goal": "Run a real circuit yourself."
+},
+"19.1": {
+"id": "19.1",
+"level": "L2",
+"search": "measurement problem explained",
+"goal": "Why \"collapse\" is the unsolved heart of quantum theory."
+},
+"19.2": {
+"id": "19.2",
+"level": "L2",
+"search": "many worlds interpretation Sean Carroll",
+"goal": "Every outcome happens in a branching wavefunction."
+},
+"19.3": {
+"id": "19.3",
+"level": "L2",
+"search": "pilot wave theory walking droplets Veritasium",
+"goal": "Particles guided by a real wave (de Broglie-Bohm)."
+},
+"19.4": {
+"id": "19.4",
+"level": "L3",
+"search": "Bohmian mechanics nonlocality",
+"goal": "Why pilot waves must be nonlocal."
+},
+"19.5": {
+"id": "19.5",
+"level": "L2",
+"search": "objective collapse GRW Penrose gravity collapse",
+"goal": "Collapse as a real physical process."
+},
+"19.6": {
+"id": "19.6",
+"level": "L2",
+"search": "QBism quantum Bayesianism",
+"goal": "The wavefunction as an agent's beliefs."
+},
+"19.7": {
+"id": "19.7",
+"level": "L2",
+"search": "relational quantum mechanics Rovelli",
+"goal": "Properties exist only relative to other systems."
+},
+"19.8": {
+"id": "19.8",
+"level": "L3",
+"search": "consistent histories interpretation",
+"goal": "Assign probabilities to whole histories."
+},
+"19.9": {
+"id": "19.9",
+"level": "L3",
+"search": "transactional interpretation",
+"goal": "Waves going forward and backward in time."
+},
+"19.10": {
+"id": "19.10",
+"level": "L2",
+"search": "superdeterminism Sabine Hossenfelder",
+"goal": "Bell's loophole: measurement settings are not free."
+},
+"19.11": {
+"id": "19.11",
+"level": "L3",
+"search": "quantum Darwinism Zurek",
+"goal": "How objective classical facts emerge."
+},
+"19.12": {
+"id": "19.12",
+"level": "L2",
+"search": "Wigner's friend paradox",
+"goal": "Two observers, two descriptions."
+},
+"19.13": {
+"id": "19.13",
+"level": "L3",
+"search": "Frauchiger-Renner paradox",
+"goal": "Extended Wigner's friend: quantum theory can't consistently describe its own users."
+},
+"19.14": {
+"id": "19.14",
+"level": "L3",
+"search": "Kochen-Specker theorem contextuality",
+"goal": "Outcomes can't be pre-assigned independent of context."
+},
+"19.15": {
+"id": "19.15",
+"level": "L3",
+"search": "GHZ paradox",
+"goal": "Bell's theorem without inequalities."
+},
+"19.16": {
+"id": "19.16",
+"level": "L3",
+"search": "Hardy's paradox",
+"goal": "Nonlocality from a single impossible event."
+},
+"19.17": {
+"id": "19.17",
+"level": "L3",
+"search": "PBR theorem reality of the wavefunction",
+"goal": "The wavefunction is likely a real thing, not just knowledge."
+},
+"19.18": {
+"id": "19.18",
+"level": "L3",
+"search": "Leggett-Garg inequality macrorealism",
+"goal": "Testing quantumness in time instead of space."
+},
+"19.19": {
+"id": "19.19",
+"level": "L2",
+"search": "quantum Zeno effect",
+"goal": "Watching a system often enough freezes it."
+},
+"19.20": {
+"id": "19.20",
+"level": "L2",
+"search": "Elitzur-Vaidman bomb tester interaction-free measurement",
+"goal": "Detect a bomb without touching it."
+},
+"19.21": {
+"id": "19.21",
+"level": "L3",
+"search": "weak measurement weak values",
+"goal": "Gentle measurements and their odd averages."
+},
+"19.22": {
+"id": "19.22",
+"level": "L3",
+"search": "quantum Cheshire cat",
+"goal": "A particle separated from its property."
+},
+"19.23": {
+"id": "19.23",
+"level": "L3",
+"search": "quantum pigeonhole paradox",
+"goal": "Three particles, two boxes, no two share a box."
+},
+"19.24": {
+"id": "19.24",
+"level": "L2",
+"search": "Hong-Ou-Mandel effect",
+"goal": "Two identical photons always leave together."
+},
+"19.25": {
+"id": "19.25",
+"level": "L2",
+"search": "Aharonov-Bohm effect",
+"goal": "Potentials affect particles where fields are zero."
+},
+"19.26": {
+"id": "19.26",
+"level": "L2",
+"search": "quantum suicide and immortality thought experiment",
+"goal": "A many-worlds thought experiment and its flaws."
+},
+"19.27": {
+"id": "19.27",
+"level": "L3",
+"search": "Conway-Kochen free will theorem",
+"goal": "If we have free will, so do particles."
+},
+"19.28": {
+"id": "19.28",
+"level": "L3",
+"search": "Tsirelson bound Popescu-Rohrlich boxes",
+"goal": "Why nature allows exactly this much nonlocality."
+},
+"19.29": {
+"id": "19.29",
+"level": "L3",
+"search": "quantum reconstruction from axioms Hardy",
+"goal": "Deriving quantum theory from simple principles."
+},
+"19.30": {
+"id": "19.30",
+"level": "L3",
+"search": "Penrose Hameroff Orch OR consciousness criticism",
+"goal": "The quantum mind proposal and the case against it."
+},
+"19.31": {
+"id": "19.31",
+"level": "L2",
+"search": "Sean Carroll Biggest Ideas in the Universe quantum",
+"goal": "A lecture series on foundations."
+},
+"20.1": {
+"id": "20.1",
+"level": "L2",
+"search": "why quantum mechanics and special relativity clash",
+"goal": "Particle number can't stay fixed at high energies."
+},
+"20.2": {
+"id": "20.2",
+"level": "L3",
+"search": "Klein-Gordon equation",
+"goal": "The first relativistic wave equation and its problems."
+},
+"20.3": {
+"id": "20.3",
+"level": "L3",
+"search": "Dirac equation explained",
+"goal": "The relativistic equation for the electron."
+},
+"20.4": {
+"id": "20.4",
+"level": "L3",
+"search": "spinors and gamma matrices Dirac",
+"goal": "The 4-component objects of the Dirac equation."
+},
+"20.5": {
+"id": "20.5",
+"level": "L3",
+"search": "Dirac sea antimatter prediction",
+"goal": "How negative energies led to positrons."
+},
+"20.6": {
+"id": "20.6",
+"level": "L3",
+"search": "electron g-factor 2 from Dirac equation",
+"goal": "Spin's magnetic strength predicted, not assumed."
+},
+"20.7": {
+"id": "20.7",
+"level": "L3",
+"search": "Klein paradox",
+"goal": "Barriers that become transparent at high voltage."
+},
+"20.8": {
+"id": "20.8",
+"level": "L3",
+"search": "zitterbewegung",
+"goal": "The electron's predicted \"trembling motion\"."
+},
+"20.9": {
+"id": "20.9",
+"level": "L2",
+"search": "ScienceClic quantum field theory visualized",
+"goal": "Fields filling space; particles as their excitations."
+},
+"20.10": {
+"id": "20.10",
+"level": "L2",
+"search": "what is a quantum field PBS Space Time",
+"goal": "Why fields come first and particles second."
+},
+"20.11": {
+"id": "20.11",
+"level": "L2",
+"search": "Quantum Fields The Real Building Blocks of the Universe David Tong Royal Institution",
+"goal": "An expert talk on the field picture."
+},
+"20.12": {
+"id": "20.12",
+"level": "L3",
+"search": "classical field theory Lagrangian density",
+"goal": "Fields obeying least action."
+},
+"20.13": {
+"id": "20.13",
+"level": "L3",
+"search": "second quantization creation annihilation operators",
+"goal": "Count particles with operators."
+},
+"20.14": {
+"id": "20.14",
+"level": "L3",
+"search": "quantizing the free scalar field",
+"goal": "Each mode of a field is a harmonic oscillator."
+},
+"20.15": {
+"id": "20.15",
+"level": "L2",
+"search": "virtual particles are they real",
+"goal": "What virtual particles do and do not mean."
+},
+"20.16": {
+"id": "20.16",
+"level": "L2",
+"search": "vacuum fluctuations quantum vacuum",
+"goal": "Empty space is not empty."
+},
+"20.17": {
+"id": "20.17",
+"level": "L2",
+"search": "Feynman diagrams explained",
+"goal": "Read diagrams as terms in a calculation."
+},
+"20.18": {
+"id": "20.18",
+"level": "L3",
+"search": "QED quantum electrodynamics explained",
+"goal": "Light and electrons; the most precise theory known."
+},
+"20.19": {
+"id": "20.19",
+"level": "L3",
+"search": "electron anomalous magnetic moment g-2 prediction",
+"goal": "Theory and experiment agree to about 1 part in 10¹²."
+},
+"20.20": {
+"id": "20.20",
+"level": "L3",
+"search": "gauge theory explained Richard Behiel",
+"goal": "Local symmetry demands force fields."
+},
+"20.21": {
+"id": "20.21",
+"level": "L3",
+"search": "local U(1) symmetry gives electromagnetism",
+"goal": "Electromagnetism from a phase symmetry."
+},
+"20.22": {
+"id": "20.22",
+"level": "L3",
+"search": "Yang-Mills theory non-abelian gauge",
+"goal": "The template for the strong and weak forces."
+},
+"20.23": {
+"id": "20.23",
+"level": "L3",
+"search": "renormalization explained",
+"goal": "Taming infinities, and what they tell us."
+},
+"20.24": {
+"id": "20.24",
+"level": "L3",
+"search": "running coupling constants",
+"goal": "Force strengths change with energy."
+},
+"20.25": {
+"id": "20.25",
+"level": "L3",
+"search": "effective field theory explained",
+"goal": "Physics at one scale ignores details of smaller ones."
+},
+"20.26": {
+"id": "20.26",
+"level": "L3",
+"search": "spontaneous symmetry breaking",
+"goal": "Symmetric laws, asymmetric ground states."
+},
+"20.27": {
+"id": "20.27",
+"level": "L3",
+"search": "Goldstone bosons",
+"goal": "Massless modes from broken symmetry."
+},
+"20.28": {
+"id": "20.28",
+"level": "L3",
+"search": "Higgs mechanism explained",
+"goal": "How the W and Z get mass."
+},
+"20.29": {
+"id": "20.29",
+"level": "L3",
+"search": "quantum chromodynamics color charge",
+"goal": "The theory of quarks and gluons."
+},
+"20.30": {
+"id": "20.30",
+"level": "L3",
+"search": "asymptotic freedom and confinement",
+"goal": "Quarks are free up close and trapped far apart."
+},
+"20.31": {
+"id": "20.31",
+"level": "L3",
+"search": "CPT theorem",
+"goal": "Every QFT is symmetric under combined C, P and T."
+},
+"20.32": {
+"id": "20.32",
+"level": "L4",
+"search": "path integral in quantum field theory",
+"goal": "Sum over all field configurations."
+},
+"20.33": {
+"id": "20.33",
+"level": "L4",
+"search": "anomalies in quantum field theory",
+"goal": "Classical symmetries broken by quantization."
+},
+"20.34": {
+"id": "20.34",
+"level": "L4",
+"search": "instantons tunneling between vacua",
+"goal": "Tunneling in field theory."
+},
+"20.35": {
+"id": "20.35",
+"level": "L4",
+"search": "conformal field theory introduction",
+"goal": "Scale-invariant theories."
+},
+"20.36": {
+"id": "20.36",
+"level": "L4",
+"search": "lattice QCD explained",
+"goal": "Solving QCD on supercomputers."
+},
+"20.37": {
+"id": "20.37",
+"level": "L3",
+"search": "Schwinger effect pair production from vacuum",
+"goal": "Strong fields rip particles out of empty space."
+},
+"20.38": {
+"id": "20.38",
+"level": "L3",
+"search": "Unruh effect",
+"goal": "Accelerating observers see a warm vacuum."
+},
+"20.39": {
+"id": "20.39",
+"level": "L4",
+"search": "Sidney Coleman quantum field theory lectures Harvard",
+"goal": "Classic graduate lectures."
+},
+"20.40": {
+"id": "20.40",
+"level": "L4",
+"search": "Leonard Susskind Theoretical Minimum special relativity and classical field theory",
+"goal": "A gentler lecture series for the same ground."
+},
+"21.1": {
+"id": "21.1",
+"level": "L1",
+"search": "Standard Model of particle physics explained",
+"goal": "The 17 particles and their roles."
+},
+"21.2": {
+"id": "21.2",
+"level": "L1",
+"search": "quarks and leptons three generations",
+"goal": "Matter particles and their families."
+},
+"21.3": {
+"id": "21.3",
+"level": "L1",
+"search": "four fundamental forces",
+"goal": "Gravity, electromagnetism, strong, weak."
+},
+"21.4": {
+"id": "21.4",
+"level": "L1",
+"search": "force carrier bosons photon gluon W Z",
+"goal": "Which boson carries which force."
+},
+"21.5": {
+"id": "21.5",
+"level": "L2",
+"search": "hadrons mesons baryons",
+"goal": "Particles made of quarks."
+},
+"21.6": {
+"id": "21.6",
+"level": "L2",
+"search": "quark model eightfold way Gell-Mann",
+"goal": "How symmetry predicted quarks."
+},
+"21.7": {
+"id": "21.7",
+"level": "L2",
+"search": "where does the proton's mass come from",
+"goal": "About 99% comes from QCD energy, not the Higgs."
+},
+"21.8": {
+"id": "21.8",
+"level": "L2",
+"search": "strong force gluons color",
+"goal": "The strongest force and its range."
+},
+"21.9": {
+"id": "21.9",
+"level": "L2",
+"search": "Yukawa pions nuclear force",
+"goal": "How nucleons bind."
+},
+"21.10": {
+"id": "21.10",
+"level": "L2",
+"search": "nuclear binding energy curve iron-56",
+"goal": "Why fusion and fission both release energy."
+},
+"21.11": {
+"id": "21.11",
+"level": "L2",
+"search": "weak force beta decay",
+"goal": "How a neutron turns into a proton."
+},
+"21.12": {
+"id": "21.12",
+"level": "L2",
+"search": "neutrinos explained",
+"goal": "Ghostly particles that barely interact."
+},
+"21.13": {
+"id": "21.13",
+"level": "L2",
+"search": "neutrino oscillations",
+"goal": "Neutrinos change flavor, so they have mass."
+},
+"21.14": {
+"id": "21.14",
+"level": "L3",
+"search": "sterile neutrinos",
+"goal": "A possible fourth neutrino."
+},
+"21.15": {
+"id": "21.15",
+"level": "L2",
+"search": "parity violation Wu experiment",
+"goal": "The weak force tells left from right."
+},
+"21.16": {
+"id": "21.16",
+"level": "L3",
+"search": "CP violation matter antimatter asymmetry",
+"goal": "Why there is more matter than antimatter."
+},
+"21.17": {
+"id": "21.17",
+"level": "L2",
+"search": "antimatter explained antihydrogen CERN",
+"goal": "Making and trapping antimatter."
+},
+"21.18": {
+"id": "21.18",
+"level": "L2",
+"search": "positronium",
+"goal": "An atom of an electron and a positron."
+},
+"21.19": {
+"id": "21.19",
+"level": "L2",
+"search": "Higgs boson discovery CERN 2012",
+"goal": "How the Higgs was found."
+},
+"21.20": {
+"id": "21.20",
+"level": "L2",
+"search": "how particle accelerators work LHC",
+"goal": "Accelerating and colliding particles."
+},
+"21.21": {
+"id": "21.21",
+"level": "L2",
+"search": "particle detectors cloud chamber bubble chamber",
+"goal": "How particles are seen; build your own cloud chamber."
+},
+"21.22": {
+"id": "21.22",
+"level": "L2",
+"search": "muon g-2 anomaly Fermilab",
+"goal": "A possible crack in the Standard Model."
+},
+"21.23": {
+"id": "21.23",
+"level": "L3",
+"search": "proton radius puzzle muonic hydrogen",
+"goal": "A puzzle from measuring the proton with muons."
+},
+"21.24": {
+"id": "21.24",
+"level": "L3",
+"search": "neutron lifetime puzzle",
+"goal": "Two methods give different answers."
+},
+"21.25": {
+"id": "21.25",
+"level": "L3",
+"search": "exotic hadrons tetraquark pentaquark glueball",
+"goal": "Particles beyond simple quark models."
+},
+"21.26": {
+"id": "21.26",
+"level": "L3",
+"search": "quark-gluon plasma",
+"goal": "The state of matter just after the Big Bang."
+},
+"21.27": {
+"id": "21.27",
+"level": "L2",
+"search": "cosmic rays Oh-My-God particle",
+"goal": "The most energetic particle ever detected."
+},
+"21.28": {
+"id": "21.28",
+"level": "L2",
+"search": "dark matter candidates WIMPs axions",
+"goal": "What dark matter might be made of."
+},
+"21.29": {
+"id": "21.29",
+"level": "L3",
+"search": "supersymmetry explained",
+"goal": "A proposed symmetry between bosons and fermions."
+},
+"21.30": {
+"id": "21.30",
+"level": "L3",
+"search": "grand unified theories proton decay",
+"goal": "Unifying the three forces."
+},
+"21.31": {
+"id": "21.31",
+"level": "L3",
+"search": "magnetic monopoles",
+"goal": "Isolated magnetic poles and Dirac's charge quantization argument."
+},
+"21.32": {
+"id": "21.32",
+"level": "L2",
+"search": "Fermilab Don Lincoln",
+"goal": "A channel that explains particle physics in depth."
+},
+"22.1": {
+"id": "22.1",
+"level": "L2",
+"search": "why is quantum gravity so hard",
+"goal": "Why the usual methods fail for gravity."
+},
+"22.2": {
+"id": "22.2",
+"level": "L2",
+"search": "Planck length and Planck units",
+"goal": "Scales where quantum gravity matters (about 1.6 × 10⁻³⁵ m)."
+},
+"22.3": {
+"id": "22.3",
+"level": "L2",
+"search": "Hawking radiation explained",
+"goal": "Black holes glow and slowly evaporate."
+},
+"22.4": {
+"id": "22.4",
+"level": "L3",
+"search": "Bekenstein-Hawking entropy area law",
+"goal": "A black hole's entropy grows with its area, not its volume."
+},
+"22.5": {
+"id": "22.5",
+"level": "L3",
+"search": "black hole information paradox",
+"goal": "Does information survive evaporation?"
+},
+"22.6": {
+"id": "22.6",
+"level": "L3",
+"search": "firewall paradox",
+"goal": "A clash between equivalence and unitarity."
+},
+"22.7": {
+"id": "22.7",
+"level": "L4",
+"search": "Page curve and islands black hole",
+"goal": "Recent progress on the information paradox."
+},
+"22.8": {
+"id": "22.8",
+"level": "L3",
+"search": "holographic principle",
+"goal": "A volume's information fits on its boundary."
+},
+"22.9": {
+"id": "22.9",
+"level": "L4",
+"search": "AdS/CFT correspondence explained",
+"goal": "Gravity in a space equals a quantum theory on its boundary."
+},
+"22.10": {
+"id": "22.10",
+"level": "L3",
+"search": "ER = EPR",
+"goal": "Entanglement and wormholes may be the same thing."
+},
+"22.11": {
+"id": "22.11",
+"level": "L3",
+"search": "spacetime from entanglement",
+"goal": "Geometry as a pattern of entanglement."
+},
+"22.12": {
+"id": "22.12",
+"level": "L2",
+"search": "string theory explained",
+"goal": "Particles as vibrating strings."
+},
+"22.13": {
+"id": "22.13",
+"level": "L3",
+"search": "extra dimensions Calabi-Yau compactification",
+"goal": "Hidden dimensions curled up small."
+},
+"22.14": {
+"id": "22.14",
+"level": "L3",
+"search": "M-theory and branes",
+"goal": "Unifying the string theories."
+},
+"22.15": {
+"id": "22.15",
+"level": "L3",
+"search": "loop quantum gravity explained",
+"goal": "Quantized space made of spin networks."
+},
+"22.16": {
+"id": "22.16",
+"level": "L4",
+"search": "causal sets causal dynamical triangulations",
+"goal": "Spacetime built from discrete pieces."
+},
+"22.17": {
+"id": "22.17",
+"level": "L4",
+"search": "asymptotic safety quantum gravity",
+"goal": "Gravity that stays finite at high energy."
+},
+"22.18": {
+"id": "22.18",
+"level": "L4",
+"search": "twistor theory Penrose",
+"goal": "Spacetime rebuilt from light rays."
+},
+"22.19": {
+"id": "22.19",
+"level": "L4",
+"search": "amplituhedron",
+"goal": "A geometric shortcut for particle scattering."
+},
+"22.20": {
+"id": "22.20",
+"level": "L3",
+"search": "Wheeler-DeWitt equation problem of time",
+"goal": "An equation of the universe with no time in it."
+},
+"22.21": {
+"id": "22.21",
+"level": "L3",
+"search": "gravity induced entanglement experiment",
+"goal": "Tabletop tests of whether gravity is quantum."
+},
+"22.22": {
+"id": "22.22",
+"level": "L2",
+"search": "cosmic inflation quantum fluctuations galaxies",
+"goal": "Quantum jitters seeded today's galaxies."
+},
+"22.23": {
+"id": "22.23",
+"level": "L3",
+"search": "cosmological constant problem vacuum energy",
+"goal": "Prediction and observation differ by about 120 powers of ten."
+},
+"22.24": {
+"id": "22.24",
+"level": "L2",
+"search": "false vacuum decay",
+"goal": "Our vacuum might not be the most stable one."
+},
+"22.25": {
+"id": "22.25",
+"level": "L3",
+"search": "eternal inflation multiverse",
+"goal": "Inflation that never ends everywhere."
+},
+"22.26": {
+"id": "22.26",
+"level": "L2",
+"search": "Big Bang nucleosynthesis",
+"goal": "How the first elements formed in about 3 minutes."
+},
+"22.27": {
+"id": "22.27",
+"level": "L3",
+"search": "Boltzmann brains problem",
+"goal": "A paradox for cosmological theories."
+},
+"22.28": {
+"id": "22.28",
+"level": "L3",
+"search": "Sabine Hossenfelder quantum gravity",
+"goal": "A skeptic's overview of the field."
+},
+"23.1": {
+"id": "23.1",
+"level": "L2",
+"search": "Casimir effect explained",
+"goal": "Two metal plates in a vacuum attract (needs Part 20)."
+},
+"23.2": {
+"id": "23.2",
+"level": "L3",
+"search": "dynamical Casimir effect",
+"goal": "Moving mirrors create photons from nothing."
+},
+"23.3": {
+"id": "23.3",
+"level": "L3",
+"search": "vacuum birefringence",
+"goal": "Empty space bends light in strong magnetic fields."
+},
+"23.4": {
+"id": "23.4",
+"level": "L2",
+"search": "how long does quantum tunneling take experiment",
+"goal": "Measuring tunneling time with atoms."
+},
+"23.5": {
+"id": "23.5",
+"level": "L3",
+"search": "Hartman effect superluminal tunneling",
+"goal": "Tunneling time that stops growing with barrier width."
+},
+"23.6": {
+"id": "23.6",
+"level": "L2",
+"search": "time crystals explained",
+"goal": "Matter that repeats in time instead of space."
+},
+"23.7": {
+"id": "23.7",
+"level": "L3",
+"search": "supersolid dipolar quantum gas",
+"goal": "A solid that also flows like a superfluid."
+},
+"23.8": {
+"id": "23.8",
+"level": "L3",
+"search": "Efimov states",
+"goal": "Endless three-body bound states that two bodies can't form."
+},
+"23.9": {
+"id": "23.9",
+"level": "L2",
+"search": "Rydberg atoms giant atoms",
+"goal": "Atoms swollen to near-visible sizes."
+},
+"23.10": {
+"id": "23.10",
+"level": "L3",
+"search": "Wigner crystal",
+"goal": "Electrons freezing into a lattice."
+},
+"23.11": {
+"id": "23.11",
+"level": "L3",
+"search": "Majorana fermions explained",
+"goal": "Particles that are their own antiparticles."
+},
+"23.12": {
+"id": "23.12",
+"level": "L3",
+"search": "non-abelian anyons braiding",
+"goal": "Particles whose swaps store memory."
+},
+"23.13": {
+"id": "23.13",
+"level": "L3",
+"search": "magnetic skyrmions",
+"goal": "Knots of magnetization."
+},
+"23.14": {
+"id": "23.14",
+"level": "L3",
+"search": "quantum chaos quantum scars",
+"goal": "What chaos means for quantum systems."
+},
+"23.15": {
+"id": "23.15",
+"level": "L3",
+"search": "Floquet systems periodically driven",
+"goal": "New phases from shaking a system."
+},
+"23.16": {
+"id": "23.16",
+"level": "L3",
+"search": "Hofstadter butterfly",
+"goal": "A fractal energy spectrum from a magnetic field."
+},
+"23.17": {
+"id": "23.17",
+"level": "L3",
+"search": "quantum spin liquids",
+"goal": "Magnets that never order, even at absolute zero."
+},
+"23.18": {
+"id": "23.18",
+"level": "L4",
+"search": "many-body localization",
+"goal": "Systems that refuse to reach thermal equilibrium."
+},
+"23.19": {
+"id": "23.19",
+"level": "L4",
+"search": "eigenstate thermalization hypothesis",
+"goal": "How isolated quantum systems still thermalize."
+},
+"23.20": {
+"id": "23.20",
+"level": "L3",
+"search": "Bose nova collapsing Bose-Einstein condensate",
+"goal": "A BEC that implodes and explodes."
+},
+"23.21": {
+"id": "23.21",
+"level": "L3",
+"search": "atom laser",
+"goal": "A coherent beam of atoms from a BEC."
+},
+"23.22": {
+"id": "23.22",
+"level": "L3",
+"search": "Feshbach resonance ultracold atoms",
+"goal": "Tuning how strongly atoms interact."
+},
+"23.23": {
+"id": "23.23",
+"level": "L3",
+"search": "quantum reflection atoms from surfaces",
+"goal": "Atoms bouncing off an attractive potential."
+},
+"23.24": {
+"id": "23.24",
+"level": "L2",
+"search": "buckyball double slit interference Zeilinger C60",
+"goal": "60-atom molecules show wave interference."
+},
+"23.25": {
+"id": "23.25",
+"level": "L3",
+"search": "macroscopic quantum superposition mechanical oscillator",
+"goal": "A visible object in a quantum state."
+},
+"23.26": {
+"id": "23.26",
+"level": "L3",
+"search": "Schrödinger cat states superconducting circuits",
+"goal": "Cat states made in the lab."
+},
+"23.27": {
+"id": "23.27",
+"level": "L2",
+"search": "neutron interferometry 4π rotation spinor",
+"goal": "Experimental proof that 360° flips the sign of a spinor."
+},
+"23.28": {
+"id": "23.28",
+"level": "L3",
+"search": "quantum states of neutrons in Earth's gravity",
+"goal": "Neutrons bouncing in quantized gravity levels."
+},
+"23.29": {
+"id": "23.29",
+"level": "L2",
+"search": "photon antibunching single photon source",
+"goal": "Light that arrives one photon at a time."
+},
+"23.30": {
+"id": "23.30",
+"level": "L2",
+"search": "Hanbury Brown Twiss effect",
+"goal": "Correlations that measure star sizes and reveal bosons."
+},
+"23.31": {
+"id": "23.31",
+"level": "L2",
+"search": "spontaneous parametric down-conversion entangled photons",
+"goal": "How entangled photons are made."
+},
+"23.32": {
+"id": "23.32",
+"level": "L3",
+"search": "quantum ghost imaging",
+"goal": "Imaging with photons that never touched the object."
+},
+"23.33": {
+"id": "23.33",
+"level": "L3",
+"search": "Purcell effect",
+"goal": "Changing how fast atoms emit by changing their surroundings."
+},
+"23.34": {
+"id": "23.34",
+"level": "L3",
+"search": "superradiance Dicke",
+"goal": "Atoms emitting together, far faster."
+},
+"23.35": {
+"id": "23.35",
+"level": "L2",
+"search": "Cherenkov radiation blue glow reactor",
+"goal": "Particles faster than light in water."
+},
+"23.36": {
+"id": "23.36",
+"level": "L3",
+"search": "sonoluminescence",
+"goal": "Collapsing bubbles that flash light (still debated)."
+},
+"23.37": {
+"id": "23.37",
+"level": "L3",
+"search": "Kapitza-Dirac effect",
+"goal": "Electrons diffracted by a standing light wave."
+},
+"23.38": {
+"id": "23.38",
+"level": "L2",
+"search": "atomic clocks how they work",
+"goal": "Timekeeping from atomic transitions."
+},
+"23.39": {
+"id": "23.39",
+"level": "L2",
+"search": "kilogram redefinition Kibble balance Planck constant Veritasium",
+"goal": "The SI now rests on h and quantum effects."
+},
+"23.40": {
+"id": "23.40",
+"level": "L2",
+"search": "optical tweezers",
+"goal": "Holding particles with light."
+},
+"23.41": {
+"id": "23.41",
+"level": "L2",
+"search": "squeezed light LIGO quantum noise",
+"goal": "Beating the quantum noise limit."
+},
+"23.42": {
+"id": "23.42",
+"level": "L2",
+"search": "NV centers diamond quantum sensing",
+"goal": "Defects in diamond as quantum sensors."
+},
+"23.43": {
+"id": "23.43",
+"level": "L3",
+"search": "electron electric dipole moment search",
+"goal": "Testing for new physics through electron shape."
+},
+"23.44": {
+"id": "23.44",
+"level": "L3",
+"search": "photon Bose-Einstein condensate",
+"goal": "Condensing light itself."
+},
+"23.45": {
+"id": "23.45",
+"level": "L3",
+"search": "Bose-Einstein condensate of magnons",
+"goal": "A condensate of spin waves at room temperature."
+},
+"24.1": {
+"id": "24.1",
+"level": "L0",
+"search": "what is a cell",
+"goal": "Membrane, nucleus, organelles."
+},
+"24.2": {
+"id": "24.2",
+"level": "L1",
+"search": "proteins structure and folding",
+"goal": "Amino acid chains folding into working shapes."
+},
+"24.3": {
+"id": "24.3",
+"level": "L1",
+"search": "how enzymes work",
+"goal": "Enzymes lower activation energy."
+},
+"24.4": {
+"id": "24.4",
+"level": "L1",
+"search": "DNA structure and replication",
+"goal": "Base pairs held by hydrogen bonds."
+},
+"24.5": {
+"id": "24.5",
+"level": "L1",
+"search": "mutations explained",
+"goal": "How DNA changes."
+},
+"24.6": {
+"id": "24.6",
+"level": "L1",
+"search": "photosynthesis light reactions explained",
+"goal": "Capturing light energy in chlorophyll."
+},
+"24.7": {
+"id": "24.7",
+"level": "L1",
+"search": "electron transport chain cellular respiration",
+"goal": "Electrons moved step by step to make ATP."
+},
+"24.8": {
+"id": "24.8",
+"level": "L1",
+"search": "how neurons work action potential",
+"goal": "Electrical signals in the brain."
+},
+"24.9": {
+"id": "24.9",
+"level": "L1",
+"search": "how the eye detects light rhodopsin",
+"goal": "A single molecule changing shape when it absorbs light."
+},
+"24.10": {
+"id": "24.10",
+"level": "L1",
+"search": "how birds navigate magnetic field migration",
+"goal": "The biological puzzle behind the quantum compass."
+},
+"24.11": {
+"id": "24.11",
+"level": "L1",
+"search": "quantum biology Jim Al-Khalili",
+"goal": "Overview of where quantum effects may matter in life."
+},
+"24.12": {
+"id": "24.12",
+"level": "L2",
+"search": "quantum coherence in photosynthesis FMO complex",
+"goal": "Energy transfer claims and the later debate about them."
+},
+"24.13": {
+"id": "24.13",
+"level": "L2",
+"search": "radical pair mechanism cryptochrome quantum compass",
+"goal": "Entangled electron spins in a bird's eye."
+},
+"24.14": {
+"id": "24.14",
+"level": "L2",
+"search": "proton tunneling in enzymes",
+"goal": "Enzymes may use tunneling to speed reactions."
+},
+"24.15": {
+"id": "24.15",
+"level": "L2",
+"search": "quantum tunneling DNA mutations",
+"goal": "Protons hopping between base pairs."
+},
+"24.16": {
+"id": "24.16",
+"level": "L2",
+"search": "vibration theory of smell Luca Turin",
+"goal": "A controversial quantum theory of smell."
+},
+"24.17": {
+"id": "24.17",
+"level": "L2",
+"search": "can humans see a single photon",
+"goal": "Rod cells respond to individual photons."
+},
+"24.18": {
+"id": "24.18",
+"level": "L2",
+"search": "is the brain quantum decoherence Tegmark",
+"goal": "Why most physicists doubt quantum effects in thought."
+},
+"24.19": {
+"id": "24.19",
+"level": "L3",
+"search": "Posner molecules Matthew Fisher quantum cognition",
+"goal": "A speculative proposal for quantum memory in the brain."
+},
+"24.20": {
+"id": "24.20",
+"level": "L1",
+"search": "how MRI works nuclear spin",
+"goal": "Spin physics used in medicine."
+},
+"24.21": {
+"id": "24.21",
+"level": "L1",
+"search": "PET scan antimatter medicine",
+"goal": "Positrons used to image the body."
+},
+"24.22": {
+"id": "24.22",
+"level": "L2",
+"search": "green fluorescent protein how it glows",
+"goal": "Quantum light emission used throughout biology."
+},
+"0.7b": {
+"id": "0.7b",
+"level": "L0",
+"search": "long multiplication and long division",
+"goal": "Multiply and divide multi-digit numbers by hand."
+},
+"0.7c": {
+"id": "0.7c",
+"level": "L0",
+"search": "divisibility rules even and odd numbers",
+"goal": "Test divisibility by 2, 3, 5, 9 and 10 at a glance."
+},
+"0.12b": {
+"id": "0.12b",
+"level": "L0",
+"search": "rounding numbers",
+"goal": "Round to a given place value."
+},
+"0.14b": {
+"id": "0.14b",
+"level": "L0",
+"search": "rates speed distance time",
+"goal": "Use rate = amount ÷ time, for example speed = distance ÷ time."
+},
+"0.14c": {
+"id": "0.14c",
+"level": "L0",
+"search": "mean median mode averages",
+"goal": "Compute and compare the three kinds of average."
+},
+"0.16b": {
+"id": "0.16b",
+"level": "L0",
+"search": "squares cubes and reciprocals",
+"goal": "Recognize squares up to 20², cubes up to 10³, and reciprocals 1/x."
+},
+"0.17b": {
+"id": "0.17b",
+"level": "L1",
+"search": "binary numbers and number bases",
+"goal": "Count in binary; know why a bit is 0 or 1 (qubits come later)."
+},
+"1.10b": {
+"id": "1.10b",
+"level": "L1",
+"search": "parametric equations",
+"goal": "Describe a path by x(t), y(t), for example a circle by (cos t, sin t)."
+},
+"1.12b": {
+"id": "1.12b",
+"level": "L1",
+"search": "inverse square law",
+"goal": "Why light intensity, gravity and electric force fall off as 1/r²."
+},
+"1.15b": {
+"id": "1.15b",
+"level": "L1",
+"search": "exponential vs polynomial growth",
+"goal": "Why 2ⁿ eventually beats any power of n (the reason quantum computers matter)."
+},
+"1.28b": {
+"id": "1.28b",
+"level": "L1",
+"search": "introduction to matrices",
+"goal": "Add matrices and multiply a matrix by a vector."
+},
+"2.5b": {
+"id": "2.5b",
+"level": "L1",
+"search": "Leibniz notation dy/dx meaning",
+"goal": "Read dy/dx and d²y/dx², and treat dx as a tiny change."
+},
+"2.17b": {
+"id": "2.17b",
+"level": "L2",
+"search": "numerical integration trapezoid rule Simpson's rule",
+"goal": "Estimate integrals that have no formula."
+},
+"3.3b": {
+"id": "3.3b",
+"level": "L1",
+"search": "Gaussian elimination row reduction",
+"goal": "Solve a 3×3 system of equations by row reduction."
+},
+"3.3c": {
+"id": "3.3c",
+"level": "L1",
+"search": "linear independence of vectors",
+"goal": "Test whether a set of vectors is independent."
+},
+"4.10b": {
+"id": "4.10b",
+"level": "L2",
+"search": "solid angle steradians",
+"goal": "A full sphere is 4π steradians; compute the solid angle of a cone."
+},
+"5.11b": {
+"id": "5.11b",
+"level": "L2",
+"search": "Laplace equation and Poisson equation",
+"goal": "Potentials in empty space and around charges."
+},
+"8.9b": {
+"id": "8.9b",
+"level": "L1",
+"search": "Hooke's law springs",
+"goal": "F = −kx and spring energy ½kx²."
+},
+"8.12b": {
+"id": "8.12b",
+"level": "L1",
+"search": "escape velocity and orbital velocity",
+"goal": "Derive v_esc = √(2GM/r) from energy conservation."
+},
+"10.3b": {
+"id": "10.3b",
+"level": "L1",
+"search": "heat transfer conduction convection radiation",
+"goal": "The three ways heat moves, with an everyday example of each."
+},
+"10.13b": {
+"id": "10.13b",
+"level": "L1",
+"search": "Stefan-Boltzmann law and Wien's displacement law",
+"goal": "Radiated power grows as T⁴; peak wavelength shrinks as 1/T."
+},
+"11.4b": {
+"id": "11.4b",
+"level": "L1",
+"search": "electric dipole explained",
+"goal": "Dipole moment p = qd and the torque a field puts on it."
+},
+"11.12b": {
+"id": "11.12b",
+"level": "L2",
+"search": "classical Hall effect",
+"goal": "A sideways voltage in a current-carrying conductor in a magnetic field (the quantum Hall effect builds on it)."
+},
+"11.14b": {
+"id": "11.14b",
+"level": "L2",
+"search": "inductance and inductors",
+"goal": "Coils resist changes in current; energy ½LI²."
+},
+"12.9b": {
+"id": "12.9b",
+"level": "L2",
+"search": "relativistic velocity addition",
+"goal": "Why adding speeds never gives more than c."
+},
+"13.21b": {
+"id": "13.21b",
+"level": "L1",
+"search": "molarity solutions concentration",
+"goal": "Concentration in mol/L and dilution."
+},
+"13.29b": {
+"id": "13.29b",
+"level": "L2",
+"search": "Beer-Lambert law absorbance",
+"goal": "Absorbance grows with concentration and path length."
+},
+"14.2b": {
+"id": "14.2b",
+"level": "L1",
+"search": "discovery of radioactivity Becquerel Marie Curie",
+"goal": "Atoms are not unchangeable; some emit radiation by themselves."
+},
+"14.3b": {
+"id": "14.3b",
+"level": "L1",
+"search": "X-rays discovery Roentgen and Moseley's law",
+"goal": "X-ray lines order the elements by atomic number."
+},
+"14.5b": {
+"id": "14.5b",
+"level": "L1",
+"search": "Rayleigh-Jeans law vs Planck's law",
+"goal": "Where the classical curve agrees with experiment and where it blows up."
+},
+"15.4b": {
+"id": "15.4b",
+"level": "L1",
+"search": "normalizing a wavefunction",
+"goal": "Scale ψ so the total probability is exactly 1."
+},
+"15.5b": {
+"id": "15.5b",
+"level": "L1",
+"search": "two-state quantum systems photon polarization",
+"goal": "The simplest quantum system: two basis states and their superpositions."
+},
+"15.7b": {
+"id": "15.7b",
+"level": "L1",
+"search": "Heisenberg microscope thought experiment",
+"goal": "Heisenberg's original argument and why it is not the full story."
+},
+"15.7c": {
+"id": "15.7c",
+"level": "L2",
+"search": "energy-time uncertainty relation",
+"goal": "Short-lived states have spread-out energies (line widths)."
+},
+"15.11b": {
+"id": "15.11b",
+"level": "L2",
+"search": "superposition of energy eigenstates time evolution quantum beats",
+"goal": "Superpositions of different energies slosh back and forth in time."
+},
+"16.1b": {
+"id": "16.1b",
+"level": "L2",
+"search": "matrix representation of operators quantum",
+"goal": "Write an operator as a matrix in a chosen basis."
+},
+"16.1c": {
+"id": "16.1c",
+"level": "L2",
+"search": "completeness relation resolution of the identity",
+"goal": "Inserting a sum of ∣n⟩⟨n∣ = 1 to change basis."
+},
+"17.17b": {
+"id": "17.17b",
+"level": "L3",
+"search": "Hund's rules and term symbols",
+"goal": "Name an atom's ground state, for example carbon's ³P₀."
+},
+"17.27b": {
+"id": "17.27b",
+"level": "L3",
+"search": "Kronig-Penney model band gaps",
+"goal": "A solvable periodic potential that produces band gaps."
+},
+"17.32b": {
+"id": "17.32b",
+"level": "L2",
+"search": "tunnel diode how it works",
+"goal": "A device whose current falls as voltage rises, thanks to tunneling."
+},
+"17.38b": {
+"id": "17.38b",
+"level": "L3",
+"search": "Heisenberg model ferromagnetism",
+"goal": "Spin-spin coupling as the source of magnetic order."
+},
+"17.50b": {
+"id": "17.50b",
+"level": "L3",
+"search": "Bose-Einstein condensation temperature formula",
+"goal": "Estimate the condensation temperature from density and mass."
+},
+"18.1b": {
+"id": "18.1b",
+"level": "L1",
+"search": "classical logic gates and reversible computing Toffoli gate",
+"goal": "AND, OR, NOT, and why quantum gates must be reversible."
+},
+"18.10b": {
+"id": "18.10b",
+"level": "L2",
+"search": "phase kickback quantum",
+"goal": "How a control qubit picks up a phase from its target."
+},
+"18.10c": {
+"id": "18.10c",
+"level": "L2",
+"search": "Bernstein-Vazirani algorithm and Simon's algorithm",
+"goal": "Two more oracle problems with quantum speedups."
+},
+"19.1b": {
+"id": "19.1b",
+"level": "L2",
+"search": "Bell inequality derivation step by step",
+"goal": "Derive a Bell inequality yourself from local hidden variables."
+},
+"19.6b": {
+"id": "19.6b",
+"level": "L2",
+"search": "ensemble interpretation quantum mechanics",
+"goal": "ψ as a description of many identically prepared systems, not one."
+},
+"20.17b": {
+"id": "20.17b",
+"level": "L3",
+"search": "S-matrix and Feynman rules",
+"goal": "Turn a Feynman diagram into a number you can compare with experiment."
+},
+"20.18b": {
+"id": "20.18b",
+"level": "L3",
+"search": "electron positron annihilation and Compton scattering in QED",
+"goal": "Two classic QED processes worked through."
+},
+"21.9b": {
+"id": "21.9b",
+"level": "L3",
+"search": "isospin symmetry",
+"goal": "Protons and neutrons as two states of one particle."
+},
+"21.11b": {
+"id": "21.11b",
+"level": "L2",
+"search": "conservation laws particle reactions lepton number baryon number",
+"goal": "Decide whether a reaction is allowed by checking what must be conserved."
+},
+"22.3b": {
+"id": "22.3b",
+"level": "L3",
+"search": "quantum field theory in curved spacetime",
+"goal": "The framework behind Hawking and Unruh radiation."
+},
+"23.9b": {
+"id": "23.9b",
+"level": "L2",
+"search": "ammonia inversion and the maser",
+"goal": "A molecule tunneling between two shapes, used in the first maser."
+},
+"23.29b": {
+"id": "23.29b",
+"level": "L2",
+"search": "electron spin resonance ESR",
+"goal": "Flipping electron spins with microwaves."
+},
+"24.7b": {
+"id": "24.7b",
+"level": "L1",
+"search": "ATP energy currency of the cell",
+"goal": "How cells store and spend energy."
+},
+"24.9b": {
+"id": "24.9b",
+"level": "L1",
+"search": "UV light DNA damage photon energy",
+"goal": "Why UV photons break bonds and visible photons do not."
+}
+}
